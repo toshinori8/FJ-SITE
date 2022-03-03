@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
+import { LogoFJ } from '@/layout/fjLogo';
 import Slider from '@/layout/Slider';
 
 function Banner() {
@@ -13,10 +14,12 @@ function Banner() {
         <div className="inner">
           <div className="w-1/4 logo">
             <Link href="">
-              <img
+              {/* <img
                 alt="FJ Malowanie dachów"
                 src={`${router.basePath}/assets/images/fjLogo.svg`}
               />
+               */}
+              <LogoFJ />
             </Link>
           </div>
           <h2>Malowanie dachów</h2>
