@@ -1,7 +1,7 @@
 @import url(./webfonts/fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
-@import url(./components/slider.css);
-
+@import url(./slider.css);
+@import url(./navicon.css);
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -101,7 +101,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/bg.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -3298,10 +3298,12 @@ input, select, textarea {
 		#menu h2 {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			padding-bottom: 1em;
+      font-family: arial, helvet;
 		}
 
 		#menu .close {
-			background-image: url("images/close.svg");
+			
+      background-image: url("../images/close.svg");
 			background-position: 75% 25%;
 			background-repeat: no-repeat;
 			background-size: 2em 2em;
@@ -3322,6 +3324,7 @@ input, select, textarea {
 			list-style: none;
 			margin-bottom: 1.5em;
 			padding: 0;
+      font-family: arial, helvet;
 		}
 
 			#menu .links li {
@@ -3329,10 +3332,11 @@ input, select, textarea {
 			}
 
 				#menu .links li a {
+          color: white;
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
+          font-family: arial, helvet;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
@@ -3370,6 +3374,7 @@ input, select, textarea {
 		pointer-events: auto;
 		opacity: 1;
 		visibility: visible;
+    z-index:2000000;
 	}
 
 		body.is-menu-visible #menu .inner {
@@ -3402,6 +3407,7 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+      cursor:pointer;
 		}
 
 			#banner .logo .icon {
@@ -3438,6 +3444,8 @@ input, select, textarea {
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+      font-weight: bold;
+      font-family: arial, helvet;
 		}
 
 		#banner p {
@@ -3471,7 +3479,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/bg.jpg");
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3583,7 +3591,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("./images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/bg.jpg");
 			background-size: auto,
  cover;
 
@@ -4077,7 +4085,7 @@ input, select, textarea {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/bg.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
