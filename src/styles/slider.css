@@ -10,31 +10,41 @@
     border: 4px solid #A51A41;
     left: 0px;
     width: 100%;
+    min-height: 613px;;
     position: absolute;
     top: 0px;
-    opacity: 0.4;
-    height: 100%;
+    opacity: 1;
+    height: 60%;
     overflow: hidden;
     background-size: cover;
     z-index: 10;
-    animation: image 20s infinite alternate;
+    animation: image 30s infinite alternate;
 }
 
 @keyframes image {
   0% {
+    background-image: url('../images/slider/slider-03.jpg');
+  }
+  30% {
     background-image: url('../images/slider/slider-01.jpg');
   }
-  20% {
+  60% {
     background-image: url('../images/slider/slider-02.jpg');
-  }
-  40% {
-    background-image: url('../images/slider/slider-01.jpg');
   }
   70% {
-    background-image: url('../images/slider/slider-02.jpg');
+    background-image: url('../images/slider/slider-03.jpg');
   }
-  100%{
+  80% {
+    background-image: url('../images/slider/slider-03.jpg');
+  }
+  90% {
+    background-image: url('../images/slider/slider-03.jpg');
+  }
+  100% {
+    background-image: url('../images/slider/slider-03.jpg');
+  }
+  /* 100%{
     background-image: url('https://i.ytimg.com/vi/uuO4MvX4N8g/maxresdefault.jpg');
   }
-  
+   */
 }

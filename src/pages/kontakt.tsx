@@ -1,4 +1,4 @@
-import { Meta } from '@/layout/Meta';
+import { Meta } from '@/layout/Elements/Meta';
 import { Main } from '@/templates/Main';
 
 const Kontakt = () => (

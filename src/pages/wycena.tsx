@@ -1,10 +1,10 @@
-import { Meta } from '@/layout/Meta';
+import { Meta } from '@/layout/Elements/Meta';
 import { Main } from '@/templates/Main';
 
 const Wycena = () => (
-  <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
-    <p>Wycena</p>
-    <p>Wycena</p>
+  <Main meta={<Meta title="Wycena" description="Wycena" />}>
+  
+  
   </Main>
 );
 
