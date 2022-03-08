@@ -339,7 +339,7 @@ textarea {
   }
 
   /* nav#desktop {display: none;} */
-  */ body,
+  * body,
   input,
   select,
   textarea {
@@ -355,7 +355,7 @@ textarea {
     display: none;
   }
 
-  */ body,
+  * body,
   input,
   select,
   textarea {
