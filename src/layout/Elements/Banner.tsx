@@ -1,7 +1,5 @@
-import Link from 'next/link';
 import LogoFJ from '@/layout/Elements/LogoFJ';
 import Slider from '@/layout/Elements/Slider';
-
 
 function Banner() {
   return (
@@ -11,17 +9,15 @@ function Banner() {
 
         <div className="inner">
           <div className="w-1/4 logo">
-            
-              {/* <img
+            {/* <img
                 alt="FJ Malowanie dachów"
                 src={`${router.basePath}/assets/images/fjLogo.svg`}
               />
                */}
-              <LogoFJ />
-           
+            <LogoFJ />
           </div>
           <h2>Malowanie dachów</h2>
-          <p></p>
+          <p>Zupełnie nowy wygląd oraz trwałość na wiele lat w kilka dni</p>
         </div>
       </section>
     </>
