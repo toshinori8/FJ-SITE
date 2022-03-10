@@ -1,26 +1,37 @@
 #one{
 
-  box-shadow: 0px -8px 64px -3px rgba(0,0,0,0.45);
-  -webkit-box-shadow: 0px -8px 64px -3px rgba(0,0,0,0.45);
-  -moz-box-shadow: 0px -8px 64px -3px rgba(0,0,0,0.45);
+  box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
+  -webkit-box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
+  /* background-image: url('/assets/images/1.jpg'); */
+
+}
+
+#one.spotlight a{
+  border-radius:0px;
+}
+#one.spotlight .image img{
+
+opacity: 0.6;
+border-radius:0px;
 
 
 }
 #two{
-  box-shadow: 0px 25px 64px -3px rgba(0,0,0,0.45);
--webkit-box-shadow: 0px 25px 64px -3px rgba(0,0,0,0.45);
--moz-box-shadow: 0px 25px 64px -3px rgba(0,0,0,0.45);
+  box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
+-webkit-box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
+-moz-box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
 }
 #three{
-  box-shadow: 0px 25px 64px -3px rgba(0,0,0,0.45);
--webkit-box-shadow: 0px 25px 64px -3px rgba(0,0,0,0.45);
--moz-box-shadow: 0px 25px 64px -3px rgba(0,0,0,0.45);
+  box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
+-webkit-box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
+-moz-box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
 }
 
 #four{
 
-  box-shadow: 0px 25px 64px -3px rgba(0,0,0,0.45);
-  -webkit-box-shadow: 0px 25px 64px -3px rgba(0,0,0,0.45);
-  -moz-box-shadow: 0px 25px 64px -3px rgba(0,0,0,0.45);
+  box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
+  -webkit-box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0 8px 84px 129px rgba(0,0,0,0.10);
 
 }
