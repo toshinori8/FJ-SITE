@@ -42,18 +42,7 @@ const FuturesHome = () => {
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="#" className="image">
-            <motion.div
-              ref={ref}
-              animate={controls}
-              initial="hidden"
-              transition={{ duration: 0.3 }}
-              variants={{
-                visible: { opacity: 1 },
-                hidden: { opacity: 0 },
-              }}
-            >
-              <img src={'/assets/images/2.jpg'} alt="" />
-            </motion.div>
+          <img src={'/assets/images/2.jpg'} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Tempus adipiscing</h2>
@@ -74,18 +63,7 @@ const FuturesHome = () => {
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="#" className="image">
-            <motion.div
-              ref={ref}
-              animate={controls}
-              initial="hidden"
-              transition={{ duration: 0.3 }}
-              variants={{
-                visible: { opacity: 1 },
-                hidden: { opacity: 0 },
-              }}
-            >
-              <img src={'/assets/images/3.jpg'} alt="" />
-            </motion.div>
+          <img src={'/assets/images/3.jpg'} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Nullam dignissim</h2>
