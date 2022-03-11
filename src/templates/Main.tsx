@@ -5,7 +5,7 @@ import Footer from '@/layout/Elements/Footer';
 import Menu from '@/layout/Elements/menu/Menu';
 import MenuItems from '@/layout/Elements/menu/MenuItems';
 import MenuOver from '@/layout/Elements/menu/MenuOver';
-import router, { useRouter } from 'next/router';
+import useRouter from 'next/router';
 import React from 'react';
 
 type IMainProps = {
@@ -13,26 +13,15 @@ type IMainProps = {
   children: ReactNode;
 };
 
-useEffect(() => {
-  const clasS=router.asPath.replace('/([/])+/g','',);
-  
-});
-function routerClass(){
 
-  const clasS='xxxx'
-
- 
-  
-  return clasS;
-
-}
 
 const Main = (props: IMainProps) => (
 
 
   <>
     {props.meta}
-    <div id="container" className={routerClass()}>
+    
+    
     <header id="header" className="alt">
       <nav id="desktop">
         <MenuItems />
@@ -55,7 +44,7 @@ const Main = (props: IMainProps) => (
     <script src="js/breakpoints.min.js"></script>
     <script type="module" src="js/util.js"></script>
     <script type="module" src="js/main.js"></script> */}
- </div>
+
   </>
   
 );

@@ -1,15 +1,22 @@
+
+:root {
+  --colorRed: #a51a42
+}
+
 @import url(./webfonts/fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 @import url(./slider.css);
 @import url(./navicon.css);
 @import url(./logoAnim.css);
 @import url(./futures.css);
-
+@import url(./menu.css);
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+
 
 html,
 body,
@@ -231,52 +238,6 @@ body.is-preload *:after {
 
 /* Type */
 
-#header nav#desktop {
-
-  position: absolute;
-  z-index: 291220000000;
-  width: 100%;
-  /* height: auto; */
-  background-color: rgba(165,26,66,1);
-  /* left: 0px; */
-  float: right;
-  /* margin-right: 0px; */
-  
-
-
-}
-
-nav#desktop ul.primary {
-      /* right: 0; */
-    /* border: 0; */
-    /* margin: 0; */
-    /* padding: 0; */
-    list-style: none;
-    float: right;
-    width: 50%;
-}
-
-nav#desktop ul.primary li {
- 
-  float: left;
-  width: auto;
-  height: 61px;
-  /* padding: 0; */
-  /* font-size: 10px; */
-}
-
-nav#desktop ul li a {
-  color: white;
-}
-
-nav#desktop .clear
-{
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
 
 body,
 input,

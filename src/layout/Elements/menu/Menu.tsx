@@ -1,10 +1,14 @@
 import { useEffect } from 'react';
 import HamMenu from './HamMenu';
 import {motion } from 'framer-motion'
+import { useRouter } from 'next/router';
 
 
 function Menu() {
   useEffect(() => {
+
+    
+
     document.addEventListener('keydown', function e(event) {
       if (event.keyCode === 27) {
         document.body.classList.remove('is-menu-visible');
@@ -12,12 +16,16 @@ function Menu() {
       }
       // console.log(event.keyCode);
     });
+    
+
+
   }, []);
 
   const showMobileMenu = (e: React.MouseEvent) => {
     e.preventDefault();
     // console.log('showMobileMenu');
     document.body.classList.toggle('is-menu-visible');
+    
   };
 
   const variants = {

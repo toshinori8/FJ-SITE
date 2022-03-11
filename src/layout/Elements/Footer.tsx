@@ -3,32 +3,21 @@ import KontaktForm from "./KontaktForm";
 
 function Footer() {
   return (
-    <>
-      <section id="footer">
-        <div className="inner">
-
-
-          <FadeIn >
-            <br /><br></br>
-            <h2 className="major">Zostaw kontakt / prześlij wiadomość </h2>
+<>
+    <section id="footer">
+    <FadeIn >
+       	<div className="inner">
+						<br /><br></br>
+            <h2 className="major">Zostaw wiadomość lub skontktuj się z nami</h2>
             <br /><br></br>
             <p>
               W celu dokonania wstepnej wyceny prosimy o załączenie zdjęć w poniszym formularzu.
             </p>
             <br />   <br />   <br />
-            <KontaktForm />
-          </FadeIn>
-
-
-          <br /><br />
-          <br /><br />
-
-
-          <FadeIn >
-            <br /><br></br>
-            <h2 className="major">Dane kontaktowe</h2>
-            <br /><br></br>
-            <ul className="contact">
+             <KontaktForm />
+						
+             
+             <ul className="contact">
               <li className="icon solid fa-home">
 
                 FJ ŁUKASZ JELEŃ
@@ -50,17 +39,15 @@ function Footer() {
                 <a href="#">instagram.com/untitled-tld</a>
               </li>
             </ul>
-            <ul className="copyright">
-              <li>&copy; FJ Łukasz Jeleń wszelkie prawa zastrzeone.</li>
-              <li>
-                Code: <a href="http://stream404.art.pl">Stream404</a>  /  Template: <a href="http://html5up.net">HTML5 UP</a>
-              </li>
-            </ul>
-          </FadeIn>
+						
+						</div></FadeIn>	
+					</section>
 
-        </div>
-      </section>
-    </>
+
+
+     
+      
+</>    
   );
 }
 

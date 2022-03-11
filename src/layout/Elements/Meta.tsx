@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import { AppConfig } from '@/utils/AppConfig';
+import { useEffect } from 'react';
 
 type IMetaProps = {
   title: string;
@@ -10,9 +11,26 @@ type IMetaProps = {
   canonical?: string;
 };
 
+
+
 const Meta = (props: IMetaProps) => {
   const router = useRouter();
 
+      useEffect(() => {
+
+      let classs=  document.querySelector('body')?.classList.add(router.asPath.replace(/([/])+/g,'-'));
+      
+      
+
+     let  menuEl = document.querySelector('a[href*="'+router.asPath+'"]')!.parentElement?.classList.toggle('active');
+
+    console.log(menuEl);
+
+      //  console.log(router.asPath.replace(/([/])+/g,'-'));
+
+    }, []);
+
+  
   return (
     <>
       <Head>
