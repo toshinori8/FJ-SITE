@@ -1,10 +1,12 @@
-import { ReactNode } from 'react';
+import { ReactNode, useEffect } from 'react';
 
 import Banner from '@/layout/Elements/Banner';
 import Footer from '@/layout/Elements/Footer';
 import Menu from '@/layout/Elements/menu/Menu';
-import MenuOver from '@/layout/Elements/menu/MenuOver';
 import MenuItems from '@/layout/Elements/menu/MenuItems';
+import MenuOver from '@/layout/Elements/menu/MenuOver';
+import useRouter from 'next/router';
+import React from 'react';
 
 type IMainProps = {
   meta: ReactNode;
@@ -12,35 +14,28 @@ type IMainProps = {
 };
 
 
+
 const Main = (props: IMainProps) => (
+
+
   <>
     {props.meta}
-    <header id="header" className="alt">
-
     
-      <nav id="desktop"> 
-      <div >
-      <MenuItems />  
-      </div>
-      <div className="clear"></div>
+    
+    <header id="header" className="alt">
+      <nav id="desktop">
+        <MenuItems />
       </nav>
-      
+
       <Menu />
-
-
     </header>
-
     <MenuOver />
-
     <Banner />
-
     <section id="wrapper">{props.children}</section>
-
-
-..
+    
     <Footer />
-..
-
+    
+    
     {/* <script type="module" src="js/main.js"></script>
 
     <script src="js/jquery.min.js"></script>
@@ -49,7 +44,9 @@ const Main = (props: IMainProps) => (
     <script src="js/breakpoints.min.js"></script>
     <script type="module" src="js/util.js"></script>
     <script type="module" src="js/main.js"></script> */}
+
   </>
+  
 );
 
 export { Main };

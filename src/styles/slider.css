@@ -7,17 +7,18 @@
   
 }
   .sliderJJ{
-    border: 4px solid #A51A41;
+    border: 4px solid var(--colorRed);
     left: 0px;
     width: 100%;
     min-height: 613px;;
     position: absolute;
     top: 0px;
-    opacity: 1;
+    opacity: 0.8;
     height: 60%;
     overflow: hidden;
     background-size: cover;
     z-index: 10;
+    -webkit-animation: image 30s infinite alternate;
     animation: image 30s infinite alternate;
 }
 

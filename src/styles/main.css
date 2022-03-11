@@ -1,13 +1,22 @@
+
+:root {
+  --colorRed: #a51a42
+}
+
 @import url(./webfonts/fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 @import url(./slider.css);
 @import url(./navicon.css);
 @import url(./logoAnim.css);
+@import url(./futures.css);
+@import url(./menu.css);
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+
 
 html,
 body,
@@ -229,51 +238,6 @@ body.is-preload *:after {
 
 /* Type */
 
-#header nav#desktop {
-
-    /* position: absolute; */
-    z-index: 291220000000;
-    /* width: 100%; */
-    /* height: auto; */
-    background-color: rgba(165,26,66,1);
-    /* left: 0px; */
-    /* margin-right: 0px; */
-    width: 100%;
-
-}
-
-nav#desktop ul.primary {
-  /* transform: rotate(-180deg); */
-  /* float: left; */
-  /* margin-right: 0px; */
-  float: right;
-  height: 120px;
-  /* flex-direction: column-reverse; */
-}
-
-nav#desktop ul.primary li {
- 
-  float: left;
-  padding: 2px;
-  margin: 0 3px;
-  color: white;
-  /* float: right; */
-  top: 20px;
-  text-align: center;
-}
-
-nav#desktop ul li a {
-  color: white;
-}
-
-nav#desktop .clear
-{
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
 
 body,
 input,
@@ -339,7 +303,7 @@ textarea {
   }
 
   /* nav#desktop {display: none;} */
-  */ body,
+  * body,
   input,
   select,
   textarea {
@@ -355,7 +319,7 @@ textarea {
     display: none;
   }
 
-  */ body,
+  * body,
   input,
   select,
   textarea {
@@ -3657,9 +3621,9 @@ body.is-menu-visible #menu .inner {
   -ms-filter: blur(0);
   filter: blur(0);
   opacity: 1;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  /* border-bottom: solid 2px rgba(255, 255, 255, 0.125); */
   font-size: 2.25em;
-  margin-bottom: 0.8em;
+  /* margin-bottom: 0.8em; */
   padding-bottom: 0.4em;
   font-weight: bold;
   font-family: arial, helvet;
@@ -4286,12 +4250,21 @@ body.is-preload #banner p {
 
 #footer .inner form {
   margin: 0 3em 0 0;
-  width: calc(50% - 1.5em);
+  width: calc(30% - 1.5em);
+  padding-right: 1%;
+  margin-right: 18%;
 }
+#footer .inner .contactInfo {
+ 
+  position: relative;
+  width: 54%;
+  border-left: 1px solid rgba(255,255,255,0.1);
+  padding-left: 48px;
 
+}
 #footer .inner .contact {
   width: calc(50% - 1.5em);
-
+  
 
 }
 

@@ -18,6 +18,10 @@ const KontaktForm = () => {
 
     return (
      
+      
+
+
+
       <form onSubmit={handleSubmit(onSubmit)}>
       <div className="fields">
         <div className="field">
@@ -53,12 +57,6 @@ const KontaktForm = () => {
       
     </form>
   
-
-
-
-  
-   
-
 
 
 

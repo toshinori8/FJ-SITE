@@ -1,45 +1,36 @@
+import React, { useEffect } from 'react';
 
-import router from "next/router";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import React, { useEffect } from "react";
-
-
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 type FuturesHomeProps = {
   enny: string;
-
 };
 
 const FuturesHome = () => {
-
   const controls = useAnimation();
   const [ref, inView] = useInView();
 
   useEffect(() => {
     if (inView) {
-      controls.start("visible");
+      controls.start('visible');
     }
   }, [controls, inView]);
 
-
   return (
     <>
-
-
-
-
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-       
           <a href="#" className="image">
-            <img src={`/assets/images/1.jpg`} alt="" />
+            <img src={'/assets/images/1.jpg'} alt="" />
           </a>
 
           <div className="content">
-            <h2 className="major">Malowanie i renowacja dachów</h2>
+            <h2 className="major">Profesjnalne malowanie i renowacja dachów</h2>
             <p>
-              Przeprowadzamy kompleksowy proces renowacji dacho obejmujący odtłuszczanie, czyszczenie oraz malowanie profesjonalnymi powłokami
+              Przeprowadzamy kompleksowy proces renowacji dachów obejmujący
+              odtłuszczanie, czyszczenie oraz malowanie profesjonalnymi
+              powłokami lakierniczymi.
             </p>
             <a href="#" className="special">
               Poznaj szczegóły
@@ -48,26 +39,10 @@ const FuturesHome = () => {
         </div>
       </section>
 
-
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-
-        <a href="#" className="image">
-            <motion.div
-              ref={ref}
-              animate={controls}
-              initial="hidden"
-              transition={{ duration: 0.3}}
-
-              variants={{
-                visible: { opacity: 1, },
-                hidden: { opacity: 0 }
-              }}
-            >
-
-              <img src={`/assets/images/2.jpg`} alt="" />
-
-            </motion.div>
+          <a href="#" className="image">
+          <img src={'/assets/images/2.jpg'} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Tempus adipiscing</h2>
@@ -79,7 +54,7 @@ const FuturesHome = () => {
               cursus.
             </p>
             <a href="#" className="special">
-            POZNAJ SZCZEGÓŁY
+              POZNAJ SZCZEGÓŁY
             </a>
           </div>
         </div>
@@ -87,22 +62,8 @@ const FuturesHome = () => {
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-        <a href="#" className="image">
-            <motion.div
-              ref={ref}
-              animate={controls}
-              initial="hidden"
-              transition={{ duration: 0.3}}
-
-              variants={{
-                visible: { opacity: 1, },
-                hidden: { opacity: 0 }
-              }}
-            >
-
-              <img src={`/assets/images/3.jpg`} alt="" />
-
-            </motion.div>
+          <a href="#" className="image">
+          <img src={'/assets/images/3.jpg'} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Nullam dignissim</h2>
@@ -114,17 +75,13 @@ const FuturesHome = () => {
               cursus.
             </p>
             <a href="#" className="special">
-            POZNAJ SZCZEGÓŁY
+              POZNAJ SZCZEGÓŁY
             </a>
           </div>
         </div>
       </section>
     </>
-  )
+  );
+};
 
-}
-
-
-
-
-export default FuturesHome
+export default FuturesHome;
