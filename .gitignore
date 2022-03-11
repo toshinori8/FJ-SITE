@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+/src/.DS_Store
+.DS_Store
 # testing
 /coverage
 
@@ -35,3 +37,6 @@ local
 .vercel
 src/images/4.psd
 src/images/bg.psd
+src/.DS_Store
+.DS_Store
+src/.DS_Store
