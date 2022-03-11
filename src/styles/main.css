@@ -4250,12 +4250,21 @@ body.is-preload #banner p {
 
 #footer .inner form {
   margin: 0 3em 0 0;
-  width: calc(50% - 1.5em);
+  width: calc(30% - 1.5em);
+  padding-right: 1%;
+  margin-right: 18%;
 }
+#footer .inner .contactInfo {
+ 
+  position: relative;
+  width: 54%;
+  border-left: 1px solid rgba(255,255,255,0.1);
+  padding-left: 48px;
 
+}
 #footer .inner .contact {
   width: calc(50% - 1.5em);
-
+  
 
 }
 
