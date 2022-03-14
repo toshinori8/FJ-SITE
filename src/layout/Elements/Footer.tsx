@@ -32,17 +32,17 @@ function Footer() {
                   <a href="tel:+48798141832">(+48) 798 141 832</a>
                 </li>
                 <li className="icon solid fa-envelope">
-                  <a href="/login">information@untitled.tld</a>
+                  <a href="mailto:biuro@malowanie-dachow-fj.pl">biuro@malowanie-dachow-fj.pl</a>
                 </li>
-                <li className="icon brands fa-twitter">
-                  <a href="twitter"></a>
-                </li>
-                <li className="icon brands fa-facebook-f">
-                  <a href="#">facebook.com/untitled-tld</a>
-                </li>
-                <li className="icon brands fa-instagram">
+                {/* <li className="icon solid fa-envelope">
+                  <a href="mailto:wycena@malowanie-dachow-fj.pl">wycena@malowanie-dachow-fj.pl</a>
+                </li> */}
+                {/* <li className="icon brands fa-facebook-f"> */}
+                  {/* <a href="#">facebook.com/untitled-tld</a> */}
+                {/* </li> */}
+                {/* <li className="icon brands fa-instagram">
                   <a href="#">instagram.com/untitled-tld</a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <FadeIn>

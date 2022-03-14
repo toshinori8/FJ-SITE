@@ -9,11 +9,16 @@ import { ReactNode } from 'react';
 import { FC } from "react";
 
 
+// interface Props {
+//   username: string;
+// }
 
-const FadeIn: FC = ({ children }) => { 
+const FadeIn: FC = ({ children }) => {
+
 
   const controls = useAnimation();
   const [ref, inView] = useInView();
+
 
   useEffect(() => {
     if (inView) {
@@ -28,17 +33,17 @@ const FadeIn: FC = ({ children }) => {
       ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ duration: 0.3, delay:0.5 , left:'auto'}}
-      
+      transition={{ duration: 0.3, delay: 0.5, left: 'auto' }}
+
       variants={{
         visible: { opacity: 1, scale: 1 },
-        hidden: { opacity: 0, scale: 1, left:200 }
+        hidden: { opacity: 0, scale: 1, left: 200 }
       }}
     >
       {children}
     </motion.div>
   );
- }
+}
 
 
 

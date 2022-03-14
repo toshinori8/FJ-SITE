@@ -1,11 +1,14 @@
 import LogoFJ from '@/layout/Elements/LogoFJ';
 import Slider from '@/layout/Elements/Slider';
+import FadeIn from './FadeIn';
 
 function Banner() {
   return (
     <>
       <section id="banner">
-        <Slider />
+      <FadeIn> 
+      
+       <Slider />
 
         <div className="inner">
           <div className="w-1/4 logo">
@@ -19,6 +22,7 @@ function Banner() {
           <h2>Malowanie dachów</h2>
           <p>Zupełnie nowy wygląd oraz trwałość na wiele lat w kilka dni</p>
         </div>
+        </FadeIn>
       </section>
     </>
   );

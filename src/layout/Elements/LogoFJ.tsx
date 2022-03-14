@@ -1,9 +1,12 @@
 import Link from "next/link"
+import FadeIn from "./FadeIn"
 
 
 function LogoFJ() {
   return (
-    <Link href="/">
+
+<FadeIn>
+<Link href="/">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298 118.7">
     <style>
@@ -35,7 +38,7 @@ function LogoFJ() {
     <path className="st1" d="M185.6 108.3h21v-39h42.8v-17h-43.3v-23h46.2v-17.2h-66.7Zm98.7-16.3c1.5-4.5 1.7-13.3 1.7-13.3h-0.2v-66.6h-20l-0.5 55.9c0 0 .8 12.2-1.1 17.3c-1.9 5.1-5.5 5.6-7.9 6c-2.4 .4-7-0.1-7-0.1l-4.2-0.4l-0.2 16.6c0 0 .6 .2 2.4 .6c1.8 .4 10.8 1 15.2 .8c4.4-0.2 9.7-1.9 13.7-4.4c4-2.5 6.7-7.9 8.1-12.4Z" fill="#fff" fillRule="evenodd" mask="url(#Mask-4)" transform="translate(.4,-1)"/>
 </svg>
 
-      </Link>
+      </Link></FadeIn>
   )
   };
 
