@@ -1,6 +1,3 @@
-
-import { Component, useEffect } from "react";
-
 type HamProps = {
   csState: string;
     
@@ -13,7 +10,7 @@ const HamMenu = (stateX: HamProps) => {
     
     // console.log('sad');
     document.body.classList.remove('is-menu-visible');
-
+    document.body.classList.remove('overflow');
     // useEffect(() => {
 
     // }, []);
