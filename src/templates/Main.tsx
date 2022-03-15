@@ -7,6 +7,7 @@ import MenuItems from '@/layout/Elements/menu/MenuItems';
 import MenuOver from '@/layout/Elements/menu/MenuOver';
 import useRouter from 'next/router';
 import React from 'react';
+import LogoFJ from '@/layout/Elements/LogoFJ';
 
 type IMainProps = {
   meta: ReactNode;
@@ -24,7 +25,15 @@ const Main = (props: IMainProps) => (
     
     <header id="header" className="alt">
       <nav id="desktop">
-        <MenuItems />
+
+        <div className="wrapperLogo">
+<div className="inner">
+          <LogoFJ />
+          <MenuItems />
+</div>
+          </div>
+
+        
       </nav>
 
       <Menu />

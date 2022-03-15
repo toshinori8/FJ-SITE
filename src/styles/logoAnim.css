@@ -50,3 +50,19 @@
 .animMask9 {
   animation: 2.4s ease both z6sixfixnlt023ztnkbatkac_w;
 }
+
+.logo.mini{
+    /* position: fixed;
+    transform: scale(0.25) !important;
+    transition: all 0.3s ease-in-out !important;
+    top: -31px;
+    left: 50%;
+    border: 1px solid !important; */
+
+    opacity: 0 !important;
+}
+
+
+.logo.mini svg path.white{
+  /* fill: white !important; */
+ }
