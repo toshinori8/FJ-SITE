@@ -14,7 +14,7 @@ const Index = () => {
       meta={
         <Meta
           title="FJ Profesjonalne malowanie dachów"
-          description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+          description="Malowanie dachówki, impregnacja,czyszczenie, malowanie elewacji"
         />
       }
     >

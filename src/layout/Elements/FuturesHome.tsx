@@ -30,10 +30,11 @@ const FuturesHome = () => {
             <p>
               Przeprowadzamy kompleksowy proces renowacji dachów obejmujący
               odtłuszczanie, czyszczenie oraz malowanie profesjonalnymi
-              powłokami lakierniczymi.
+              powłokami lakierniczymi. Maluemy elewacje, kominy, i ...podbitki...
+              Malujemy dachówki ceramiczne, betonowe i blachodachówkę.
             </p>
             <a href="#" className="special">
-              Poznaj szczegóły
+              Poznaj szczegóły, zamów usługę.
             </a>
           </div>
         </div>

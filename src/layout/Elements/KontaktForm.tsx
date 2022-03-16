@@ -7,9 +7,12 @@ import LogoFJ from "./LogoFJ";
 import HamMenu from "./menu/HamMenu";
 import FadeIn from "./FadeIn";
 
+function sleep(ms:number) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 
 let message = "";
-
 let sending = false;
 const KontaktForm = () => {
 
@@ -23,44 +26,52 @@ const KontaktForm = () => {
 
   const onSubmit: SubmitHandler<Inputs> = data => {
 
-    //console.log(data)
+    console.log(data)
     // const overF= document.getElementsByClassName('overflow');
 
     sending = true;
 
     document.body.classList.toggle('overflow');
+    message = "Wysyłanie wiadomości";
 
+    console.log("Sending message");
+    sleep(2000).then(() => { 
 
-
-
-    axios.get('https://malowanie-dachow-fj.pl/mail.php', {
-      params: {
-        name: data.name,
-        message: data.message,
-        email: data.email
-      },
-      responseType: 'json'
-    })
-      .then(function (response) {
-        // console.log(response.data);
-        //   if(response.data)
-
-        const status = response.status
-        console.log(status);
-        if (status === 200) {
-          message = "Wiadomość wysłana";
-        }
-
-
+      axios.get('https://malowanie-dachow-fj.pl/mail.php', {
+        params: {
+          name: data.name,
+          message: data.message,
+          email: data.email
+        },
+        responseType: 'json'
       })
-      .catch(function (error) {
-        // console.log(error);
-      })
-      .then(function (response) {
-        // always executed
-        message = "Wysyłanie wiadomości";
+        .then(function (response) {
+          // console.log(response.data);
+          //   if(response.data)
+  
+          const status = response.status
+          console.log(status);
+          if (status == 200) {
+            message = "Wiadomość wysłana";
+          }
+  
+  
+        })
+        .catch(function (error) {
+          // console.log(error);
+        })
+        .then(function (response) {
+          // always executed
+  
+        });
 
-      });
+
+
+     });
+    
+
+
+ 
     // biuro@malowanie-dachow-fj.pl
   };
 
@@ -89,7 +100,7 @@ const KontaktForm = () => {
           </div>
           <div className="field">
             <label htmlFor="email">Email</label>
-            <input type="email" id="email" {...register("email", { required: true })} />
+            <input type="email" id="email" {...register("email", { required: true, pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/ })} />
             {errors.email &&
               <Alert variant="danger">
                 {errors.email?.type === "required" && <p>Wprowadz adres email</p>}
@@ -100,7 +111,7 @@ const KontaktForm = () => {
           </div>
           <div className="field">
             <label htmlFor="message">Wiadomość</label>
-            <textarea id="message"  {...register("message", { required: true, minLength: 10, pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/})}></textarea>
+            <textarea id="message"  {...register("message", { required: true, minLength: 10})}></textarea>
 
 
             {errors.message &&

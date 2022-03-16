@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { AnimateSharedLayout } from "framer-motion";
 import React, { useEffect } from "react";
 import '../styles/global.css';
-import handleScroll from '@/layout/Elements/handleScroll';
+import handleScroll from '@/layout/Elements/HandleScroll';
 
 
 const sendTrigger = useEffect

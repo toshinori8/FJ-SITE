@@ -21,30 +21,31 @@ const Main = (props: IMainProps) => (
 
   <>
     {props.meta}
-    
-    
+    <Banner />
+ 
+   
     <header id="header" className="alt">
       <nav id="desktop">
 
-        <div className="wrapperLogo">
-<div className="inner">
-          <LogoFJ />
-          <MenuItems />
-</div>
+        <div className="wrapperLogo hidden">
+          <div className="inner">
+            <LogoFJ />
+            <MenuItems />
           </div>
+        </div>
 
-        
+      <MenuOver />
+
       </nav>
 
-      <Menu />
+  
     </header>
-    <MenuOver />
-    <Banner />
+    <Menu />
     <section id="wrapper">{props.children}</section>
-    
+
     <Footer />
-    
-    
+
+
     {/* <script type="module" src="js/main.js"></script>
 
     <script src="js/jquery.min.js"></script>
@@ -55,7 +56,7 @@ const Main = (props: IMainProps) => (
     <script type="module" src="js/main.js"></script> */}
 
   </>
-  
+
 );
 
 export { Main };
