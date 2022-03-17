@@ -3269,7 +3269,7 @@ button:disabled,
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 10000;
+  z-index: 51;
 }
 
 #header h1 {
@@ -3555,7 +3555,7 @@ body.is-menu-visible #menu {
   pointer-events: auto;
   opacity: 1;
   visibility: visible;
-  z-index: 4000000;
+  z-index: 40;
 }
 
 body.is-menu-visible #menu .inner {
@@ -3822,7 +3822,7 @@ body.is-preload #banner p {
   background-color: #2e3141;
   margin: 6.5em 0;
   position: relative;
-  z-index: 3000000;
+  z-index: 30;
 }
 
 .wrapper:before,
