@@ -1,8 +1,11 @@
 
+
+
 form .overflow{
 
-  opacity: 1;
-  visibility: visible;
+
+  opacity: 0;
+  
   background-image: url(../images/bg.jpg);
   background-color: #2e3141;
   background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/bg.jpg");
@@ -10,6 +13,28 @@ form .overflow{
     cover;
   background-position: center,
     center;
+}
+form input#rodo{
+display:none;
+
+
+}
+form #rodo-label{
+
+font-size:0.8em;
+
+}
+form .alert, form .messageAllert{
+background-color: var(--colorRed);
+color: white;
+padding:12px;
+margin-top:12px;
+font-size:0.8em;
+border-radius: 10px;
+}
+form #message{
+  min-height:200px;
+  width:100%;  
 }
 
 form .overflow .logo{
@@ -22,14 +47,15 @@ form .overflow .logo{
   margin-top: 30%;
  
 }
-body.overflow .overflow .message{
+body.overflow .overflow .messageAllert{
 
   color : white;
   width: 100%;
   text-align: center;
-  margin-top:45%;
-
+  margin-top:55%;
+color: white;
 }
+
 body.overflow .overflow{
   opacity: 1;
   visibility: visible;
@@ -40,7 +66,7 @@ body.overflow .overflow{
   margin: 0%;
   top: 0px;
   left: 0px;
-  z-index: 9999999;
+  z-index: 400;
   transition: 300ms linear; 
 }
 body.overflow .overflow .logo{

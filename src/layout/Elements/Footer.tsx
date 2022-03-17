@@ -1,3 +1,4 @@
+import Link from "next/link";
 import FadeIn from "./FadeIn";
 import KontaktForm from "./KontaktForm";
 
@@ -11,12 +12,8 @@ function Footer() {
             <br />
             <br></br>
             <h2 className="major">Zostaw wiadomość lub skontktuj się z nami</h2>
-            <br />
-            <br></br>
-            <p>
-              W celu dokonania wstepnej wyceny prosimy o załączenie zdjęć w
-              poniszym formularzu.
-            </p>
+            
+            <p></p>
             <br /> <br /> <br />
             <KontaktForm />
             <div className="contactInfo">

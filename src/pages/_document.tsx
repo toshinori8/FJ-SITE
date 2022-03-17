@@ -2,7 +2,6 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 import { AppConfig } from '@/utils/AppConfig';
 import { useEffect } from 'react';
-import handleScroll from '@/layout/Elements/handleScroll';
 
 
 

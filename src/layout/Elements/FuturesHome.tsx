@@ -33,7 +33,7 @@ const FuturesHome = () => {
               powłokami lakierniczymi. Maluemy elewacje, kominy, i ...podbitki...
               Malujemy dachówki ceramiczne, betonowe i blachodachówkę.
             </p>
-            <a href="#" className="special">
+            <a href="/oferta/malowanie-dachow" className="special">
               Poznaj szczegóły, zamów usługę.
             </a>
           </div>

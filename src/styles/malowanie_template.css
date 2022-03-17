@@ -1,0 +1,31 @@
+.wrapper.no_bottom:after{
+
+  background-image: none;
+  }
+
+  .wrapper.no_bottom{
+
+    margin-bottom:0px;
+
+    }
+
+
+
+    .wrapper.no_top:before{
+
+      background-image: none;
+      }
+    
+      .wrapper.no_top{
+    
+        margin-top:0px;
+    
+        }
+
+
+        .wrapper .brake_list{
+
+clear: both;
+
+        }
+

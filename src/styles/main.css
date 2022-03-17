@@ -11,6 +11,7 @@
 @import url(./futures.css);
 @import url(./menu.css);
 @import url(./kontaktForm.css);
+@import url(./malowanie_template.css);
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -303,7 +304,6 @@ textarea {
     display: none;
   }
 
-  /* nav#desktop {display: none;} */
   * body,
   input,
   select,
@@ -2272,6 +2272,10 @@ article.special {
   text-align: center;
 }
 
+
+
+
+
 /* Form */
 
 form {
@@ -3225,6 +3229,7 @@ button:disabled,
 }
 
 @media screen and (max-width: 736px) {
+  nav#desktop {display: none;}
 
   .features article {
     padding: 1.5em 1.5em 0.1em 1.5em;
@@ -4264,7 +4269,7 @@ body.is-preload #banner p {
 
 }
 #footer .inner .contact {
-  width: calc(50% - 1.5em);
+  width: calc(50% - -4.5em);
   
 
 }

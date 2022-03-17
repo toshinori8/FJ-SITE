@@ -1,13 +1,10 @@
-import { ReactNode, useEffect } from 'react';
+import { ReactNode } from 'react';
 
 import Banner from '@/layout/Elements/Banner';
 import Footer from '@/layout/Elements/Footer';
 import Menu from '@/layout/Elements/menu/Menu';
-import MenuItems from '@/layout/Elements/menu/MenuItems';
 import MenuOver from '@/layout/Elements/menu/MenuOver';
-import useRouter from 'next/router';
-import React from 'react';
-import LogoFJ_white from '@/layout/Elements/LogoFJ_white';
+import MenuItems from '@/layout/Elements/menu/MenuItems';
 
 type IMainProps = {
   meta: ReactNode;
@@ -15,35 +12,17 @@ type IMainProps = {
 };
 
 
-
-const Main = (props: IMainProps) => (
-
-
+const Pielegnacja_template = (props: IMainProps) => (
   <>
     {props.meta}
-    <Banner />
- 
-   
-    <header id="header" className="alt">
-      <nav id="desktop">
-
-        <div className="wrapperLogo">
-          <div className="inner">
-            <LogoFJ_white />
-            <MenuItems />
-          </div>
-        </div>
-
-      <MenuOver />
-
-      </nav>
-
   
-    </header>
-    <Menu />
+
+
+      Malowanie
+
     <section id="wrapper">{props.children}</section>
 
-    <Footer />
+
 
 
     {/* <script type="module" src="js/main.js"></script>
@@ -54,9 +33,7 @@ const Main = (props: IMainProps) => (
     <script src="js/breakpoints.min.js"></script>
     <script type="module" src="js/util.js"></script>
     <script type="module" src="js/main.js"></script> */}
-
   </>
-
 );
 
-export { Main };
+export { Pielegnacja_template };

@@ -5,6 +5,8 @@ import Footer from '@/layout/Elements/Footer';
 import Menu from '@/layout/Elements/menu/Menu';
 import MenuOver from '@/layout/Elements/menu/MenuOver';
 import MenuItems from '@/layout/Elements/menu/MenuItems';
+import LogoFJ from '@/layout/Elements/LogoFJ';
+import LogoFJ_white from '@/layout/Elements/LogoFJ';
 
 type IMainProps = {
   meta: ReactNode;
@@ -12,13 +14,27 @@ type IMainProps = {
 };
 
 
-const Pielegnacja = (props: IMainProps) => (
+const Malowanie_template = (props: IMainProps) => (
   <>
     {props.meta}
   
+    <header id="header" className="alt">
+      <nav id="desktop">
 
+        <div className="wrapperLogo ">
+          <div className="inner">
+            <LogoFJ_white />
+            <MenuItems />
+          </div>
+        </div>
 
-      Pielegnacja
+      <MenuOver />
+
+      </nav>
+
+  
+    </header>
+    <Menu />
 
     <section id="wrapper">{props.children}</section>
 
@@ -36,4 +52,4 @@ const Pielegnacja = (props: IMainProps) => (
   </>
 );
 
-export { Pielegnacja };
+export { Malowanie_template };

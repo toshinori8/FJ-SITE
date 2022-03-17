@@ -20,7 +20,7 @@ function Banner() {
             <LogoFJ />
           </div>
           <h2>Malowanie dachów</h2>
-          <p>Zupełnie nowy wygląd oraz trwałość na wiele lat w kilka dni</p>
+          <p>Zupełnie nowy wygląd oraz trwałość na wiele lat</p>
         </div>
         </FadeIn>
       </section>

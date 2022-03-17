@@ -59,10 +59,10 @@ nav#desktop .wrapperLogo.hidden svg {
   /* visibility: hidden; */
 }
 nav#desktop .wrapperLogo svg {
-  width: 80px; 
-  margin-right:200px;
-  margin-top:2px;
-  margin-left:25px;
+  width: 60px;
+  margin-right: 200px;
+  margin-top: 6px;
+  margin-left: 25px;
  }
  nav#desktop .wrapperLogo svg path.white{
   fill:white;
@@ -101,3 +101,12 @@ nav#desktop .clear
     height: 0;
     visibility: hidden;
 }
+
+nav#desktop .icon.solid.fa-home{
+cursor: pointer;
+padding-right:5px;
+transition: all 0.2s ease-in-out;
+}
+nav#desktop .icon.solid.fa-home:hover{
+  color: rgba(255,255,255, 0.525);
+  }

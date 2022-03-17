@@ -12,7 +12,7 @@ function sleep(ms:number) {
 }
 
 
-let message = "";
+let messageAllert = "";
 let sending = false;
 const KontaktForm = () => {
 
@@ -20,6 +20,7 @@ const KontaktForm = () => {
     name: string,
     email: string,
     message: string
+    rodo: boolean;
   };
 
   const { register, handleSubmit, watch, formState: { errors } } = useForm<Inputs>();
@@ -32,7 +33,7 @@ const KontaktForm = () => {
     sending = true;
 
     document.body.classList.toggle('overflow');
-    message = "Wysyłanie wiadomości";
+    messageAllert = "Wysyłanie wiadomości";
 
     console.log("Sending message");
     sleep(2000).then(() => { 
@@ -46,23 +47,29 @@ const KontaktForm = () => {
         responseType: 'json'
       })
         .then(function (response) {
-          // console.log(response.data);
+  
           //   if(response.data)
   
-          const status = response.status
-          console.log(status);
-          if (status == 200) {
-            message = "Wiadomość wysłana";
+         
+          if (response.status === 200) {
+                  console.log(response.data);
+
+
           }
   
   
         })
         .catch(function (error) {
           // console.log(error);
+
         })
         .then(function (response) {
           // always executed
-  
+          let mesO=document.querySelector('.messageAllert');
+
+          messageAllert = "Wiadomość wysłana";
+        if(mesO) mesO.innerHTML = messageAllert
+
         });
 
 
@@ -122,6 +129,28 @@ const KontaktForm = () => {
               </Alert>
             }
           </div>
+          <div className="field">
+
+{/*               
+            <label htmlFor="rodo">Wyrazam zgodę na gromadznie przez </label>
+ */}
+
+            <input  type="checkbox" {...register('rodo')} id="rodo" className={`form-check-input ${errors.rodo ? 'is-invalid' : ''}`} />
+                        <label htmlFor="rodo" id="rodo-label" className="form-check-label">Wyrażam zgodę na przetwarzanie moich danych osobowych wyłącznie w celu nawiązania kontaktu przez firmę FJ Łukasz Jeleń.</label>
+                        <div className="invalid-feedback">{errors.rodo?.message}</div>
+                    
+
+            
+
+            {errors.rodo &&
+              <Alert variant="danger">
+                {errors.rodo?.type === "required" && <p>Wymagane by przesłać wiadomość</p>}
+                
+              </Alert>
+            }
+
+          </div>
+
         </div>
         <ul className="actions">
           <li>
@@ -138,7 +167,7 @@ const KontaktForm = () => {
 
           <div className='logo'><LogoFJ /></div>
           <FadeIn>
-            <div className='message'>{message}</div>
+            <div className='messageAllert'>{messageAllert}</div>
           </FadeIn>
         </div>
 

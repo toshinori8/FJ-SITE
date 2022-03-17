@@ -22,7 +22,7 @@ const Meta = (props: IMetaProps) => {
       
       
 
-     let  menuEl = document.querySelector('a[href*="'+router.asPath+'"]')!.parentElement?.classList.toggle('active');
+     let  menuEl = document.querySelector('a[href*="'+router.asPath+'"]')?.parentElement?.classList.toggle('active');
 
     console.log(menuEl);
 

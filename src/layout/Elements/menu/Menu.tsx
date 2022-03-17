@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import HamMenu from './HamMenu';
 import {motion } from 'framer-motion'
-import { useRouter } from 'next/router';
 
 
 function Menu() {
@@ -41,9 +40,7 @@ function Menu() {
 
   return (
     <>
-      <h1>
-        <a href="index.html">Solid State</a>
-      </h1>
+    
       <nav id="burger">
 
       
