@@ -29,21 +29,68 @@ const Malowanie = () => {
           </div>
         </header>
 
-        <div className="wrapper no_bottom" >
+        <div className="wrapper no_bottom ">
           <div className="inner">
-            <section >
-              
+            <section>
+              <h4 className="text-center	"> Jakie dachy malujemy? </h4>
+              <div className="centeredImages">
+                <div className="imageCentered">
+                  <img
+                    src="/assets/images/malowanie/dachy_ceramiczne.jpg"
+                    alt="Malowanie dachów ceramicznych"
+                  />
+                </div>
+                <div className="imageCentered">
+                  <img
+                    src="/assets/images/malowanie/dachy_cementowe.jpg"
+                    alt="Malowanie dachów ceramicznych"
+                  />
+                </div>
+                <div className="imageCentered">
+                  <img
+                    src="/assets/images/malowanie/dachy_blaszane.jpg"
+                    alt="Malowanie dachów ceramicznych"
+                  />
+                </div>
+                <div className="imageCentered">
+                  <img
+                    src="/assets/images/malowanie/dachy_blachodachowka.jpg"
+                    alt="Malowanie dachów ceramicznych"
+                  />
+                </div>
+              </div>
+              <br/><br/>
+              <p className="text-center">
+                
+              Betonowe, cementowe, ceramiczne, angobowane, szkliwione, glazurowane ,blaszane,  blachodachówka, gont, papa. 
+                            </p>
+
+<br/>
+<p className="text-center">W każdym rozmiarze i kształcie.
+</p>
+<br/><br/>
+
+
+     
+
+            </section>
+          </div>
+        </div>
+
+        <div className="wrapper no_bottom no_top">
+          <div className="inner">
+            <section>
               <p>
                 <span className="image left">
                   <img src="/assets/images/1.jpg" alt="" />
                 </span>
-                Morbi mattis mi consectetur tortor elementum, varius
-                pellentesque velit convallis. Aenean tincidunt lectus auctor
-                mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex
+                W naszej pracy wykorzystujemy sprzęt alpinistyczny co zapewnia bezpieczeństwo pracy i dotarcie do każdego miejsca i szczegółu na dachu. 
+                <br/><br/>  
 
+                Nakładanie kolejnych powłok malarskich wykonujemy przy pomocy agregatu hydrodynamicznego z podajnikiem o długości 30m, który pod ciśnieniem 10Bar dostarcza farbę dokładnie w miejsce opracowywanego pokrycia dachowego. Dzieki temu farbę wtłaczamy w każdą szczelinę pokrycia.
               </p>
-          <div className="brake_list"> </div> 
-               <p>
+              <div className="brake_list"> </div>
+              <p>
                 <span className="image left">
                   <img src="/assets/images/2.jpg" alt="" />
                 </span>
@@ -58,20 +105,19 @@ const Malowanie = () => {
                 tincidunt suscipit. Nullam auctor orci eu dolor consectetur,
                 interdum ullamcorper ante tincidunt. Mauris felis nec felis
                 elementum varius. Nam sapien ante, varius in pulvinar vitae,
-                rhonce nec fermentum nisl. Aenean erat diam,
-                tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra
-                libero rhoncus ut. Phasellus rutrum cursus velit, eget
-                condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam
-                ante, vulputate et imperdiet eget, fermentum non dolor. Ut
-                eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus
-                justo. Duis neque ligula, elementum ut enim vel, posuere finibus
-                justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque
-                hendrerit in ipsum id tellus facilisis fermentum. Proin mauris
-                dui.
+                rhonce nec fermentum nisl. Aenean erat diam, tempus aliquet
+                erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut.
+                Phasellus rutrum cursus velit, eget condimentum nunc blandit
+                vel. In at pulvinar lectus. Morbi diam ante, vulputate et
+                imperdiet eget, fermentum non dolor. Ut eleifend sagittis
+                tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque
+                ligula, elementum ut enim vel, posuere finibus justo. Vivamus
+                facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum
+                id tellus facilisis fermentum. Proin mauris dui.
               </p>
 
-              <div className="brake_list"> </div> 
-                        </section>
+              <div className="brake_list"> </div>
+            </section>
           </div>
         </div>
 

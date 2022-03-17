@@ -18,15 +18,22 @@ const Meta = (props: IMetaProps) => {
 
       useEffect(() => {
 
-      let classs=  document.querySelector('body')?.classList.add(router.asPath.replace(/([/])+/g,'-'));
+         let classNemm= router.asPath.replace(/([/])+/g,''); 
+
+        document.querySelector('body')?.removeAttribute("class");
+
+        if(classNemm!=="") {
+          let classs=  document.querySelector('body')?.classList.add(classNemm)
+          let  menuEl = document.querySelector('a[href*="'+router.asPath+'"]')?.parentElement?.classList.toggle('active');
+
+               
+    // console.log(menuEl);
+
+
+
+        };
       
       
-
-     let  menuEl = document.querySelector('a[href*="'+router.asPath+'"]')?.parentElement?.classList.toggle('active');
-
-    console.log(menuEl);
-
-      //  console.log(router.asPath.replace(/([/])+/g,'-'));
 
     }, []);
 
