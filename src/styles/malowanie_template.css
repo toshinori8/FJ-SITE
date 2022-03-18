@@ -36,3 +36,17 @@ align-content: flex-start;
   padding: 10px;
 
 }
+.wrapper .list_ordered{
+
+
+
+
+}
+.wrapper .list_ordered li{
+
+  padding-top: 2px;
+  margin-top: 4px;
+  border-left:3px solid var(--colorRed);
+
+  
+}

@@ -23,8 +23,8 @@ const Malowanie = () => {
           <div className="inner">
             <h2>Malowanie dachów</h2>
             <p>
-              Poznaj technologię i proces malowania dachówki, czyswzczenia oraz
-              impregnacji
+            POZNAJ TECHNOLOGIĘ I PROCES MALOWANIA DACHÓW, Czyszczenia ORAZ IMPREGNACJI
+
             </p>
           </div>
         </header>
@@ -82,40 +82,35 @@ const Malowanie = () => {
             <section>
               <p>
                 <span className="image left">
-                  <img src="/assets/images/1.jpg" alt="" />
+                  <img src="/assets/images/malowanie/dachy_1.jpg" alt="" />
                 </span>
-                W naszej pracy wykorzystujemy sprzęt alpinistyczny co zapewnia bezpieczeństwo pracy i dotarcie do każdego miejsca i szczegółu na dachu. 
+                W naszej pracy wykorzystujemy sprzęt alpinistyczny co zapewnia bezpieczeństwo pracy oraz dotarcie do każdego miejsca i szczegółu na dachu. 
                 <br/><br/>  
 
-                Nakładanie kolejnych powłok malarskich wykonujemy przy pomocy agregatu hydrodynamicznego z podajnikiem o długości 30m, który pod ciśnieniem 10Bar dostarcza farbę dokładnie w miejsce opracowywanego pokrycia dachowego. Dzieki temu farbę wtłaczamy w każdą szczelinę pokrycia.
+                Nakładanie kolejnych powłok malarskich wykonujemy przy pomocy agregatu hydrodynamicznego z podajnikiem o długości 30m, który pod ciśnieniem 210Bar dostarcza farbę dokładnie w miejsce opracowywanego pokrycia dachowego. Dzieki temu farbę wtłaczamy w każdą szczelinę pokrycia.
               </p>
               <div className="brake_list"> </div>
               <p>
-                <span className="image left">
-                  <img src="/assets/images/2.jpg" alt="" />
+                <span className="image right">
+                  <img src="/assets/images/malowanie/dachy_2.jpg" alt="" />
                 </span>
-                Vestibulum ultrices risus velit, sit amet blandit massa auctor
-                sit amet. Sed eu lectus sem. Phasellus in odio at ipsum
-                porttitor mollis id vel diam. Praesent sit amet posuere risus,
-                eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in,
-                auctor porta quam. Proin nec dui cursus, posuere dui eget
-                interdum. Fusce lectus magna, sagittis at facilisis vitae,
-                pellentesque at etiam. Quisque posuere leo quis sem commodo, vel
-                scelerisque nisi scelerisque. Suspendisse id quam vel tortor
-                tincidunt suscipit. Nullam auctor orci eu dolor consectetur,
-                interdum ullamcorper ante tincidunt. Mauris felis nec felis
-                elementum varius. Nam sapien ante, varius in pulvinar vitae,
-                rhonce nec fermentum nisl. Aenean erat diam, tempus aliquet
-                erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut.
-                Phasellus rutrum cursus velit, eget condimentum nunc blandit
-                vel. In at pulvinar lectus. Morbi diam ante, vulputate et
-                imperdiet eget, fermentum non dolor. Ut eleifend sagittis
-                tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque
-                ligula, elementum ut enim vel, posuere finibus justo. Vivamus
-                facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum
-                id tellus facilisis fermentum. Proin mauris dui.
+                Długotrwała jakość i gwarancja jakości to nie tylko stosowanie profesjonalnych powłok lakierniczych to przede wszystkim przygotowanie podłoża. Dlatego kładziemy duży nacisk na przygotowanie powierzchni w zależności od rodzaju pokrycia dachowego poprzez:
               </p>
 
+<br/>
+              <hr/>
+        <br/>
+
+            <ul className="list_ordered">
+              <li>Wysokociśnieniowe mycie</li> 
+              <li>Odtłuszczenie</li> 
+              <li>Odgrzybienie</li>
+
+                <li>Usunięcie rdzy</li>
+                <li>Usunięcie nalotów ................... </li>
+
+              <li>Wykonanie wszelkich możliwych napraw</li>
+              </ul>
               <div className="brake_list"> </div>
             </section>
           </div>
