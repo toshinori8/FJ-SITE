@@ -27,7 +27,7 @@ const KontaktForm = () => {
 
   const onSubmit: SubmitHandler<Inputs> = data => {
 
-    console.log(data)
+    // console.log(data)
     // const overF= document.getElementsByClassName('overflow');
 
     sending = true;
@@ -35,7 +35,7 @@ const KontaktForm = () => {
     document.body.classList.toggle('overflow');
     messageAllert = "Wysyłanie wiadomości";
 
-    console.log("Sending message");
+    // console.log("Sending message");
     sleep(2000).then(() => { 
 
       axios.get('https://malowanie-dachow-fj.pl/mail.php', {
@@ -160,7 +160,7 @@ const KontaktForm = () => {
 
 
 
-        {/* {sending==true && } */}
+        {sending==true}
 
         <div className='overflow'>
           <HamMenu csState={"open"} />

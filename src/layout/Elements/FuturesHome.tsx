@@ -28,13 +28,10 @@ const FuturesHome = () => {
           <div className="content">
             <h2 className="major">Profesjnalne malowanie i renowacja dachów</h2>
             <p>
-              Przeprowadzamy kompleksowy proces renowacji dachów obejmujący
-              odtłuszczanie, czyszczenie oraz malowanie profesjonalnymi
-              powłokami lakierniczymi. Maluemy elewacje, kominy, i ...podbitki...
-              Malujemy dachówki ceramiczne, betonowe i blachodachówkę.
+              Zajmujemy się kompleksową renowacją, impregnacją pokryć dachowych oraz elementów systemu kominowego
             </p>
             <a href="/oferta/malowanie-dachow" className="special">
-              Poznaj szczegóły, zamów usługę.
+              Poznaj szczegóły, zamów usługę
             </a>
           </div>
         </div>
@@ -42,7 +39,7 @@ const FuturesHome = () => {
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="#" className="image">
+          {/* <a href="#" className="image">
           <img src={'/assets/images/2.jpg'} alt="" />
           </a>
           <div className="content">
@@ -54,17 +51,47 @@ const FuturesHome = () => {
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="#" className="special">
+           
+          </div> */}
+
+            <div className="contentvc">
+            <h2 className="major">Pielęgnacja ogrodów</h2>
+            <p>
+              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
+              turpis ante, nullam sit amet turpis non, sollicitudin posuere
+              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
+              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
+              cursus.
+            </p>
+         
+        
+
+
+
+          <div id="slider_images_futures">
+            <div id="figure">
+              <img src="/assets/images/pielegnacja-ogrodow/6.jpg" />
+              <img src="/assets/images/pielegnacja-ogrodow/2.jpg" />
+              <img src="/assets/images/pielegnacja-ogrodow/3.jpg" />
+              <img src="/assets/images/pielegnacja-ogrodow/4.jpg" />
+              <img src="/assets/images/pielegnacja-ogrodow/5.jpg" />
+            </div>
+          </div>
+
+          <a href="#" className="special">
               POZNAJ SZCZEGÓŁY
             </a>
-          </div>
         </div>
+
+  </div> 
+
+
       </section>
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="#" className="image">
-          <img src={'/assets/images/3.jpg'} alt="" />
+            <img src={'/assets/images/3.jpg'} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Nullam dignissim</h2>

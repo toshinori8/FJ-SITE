@@ -1,6 +1,6 @@
 
 :root {
-  --colorRed: #a51a42
+  --colorRed: rgb(173, 13, 72);
 }
 
 @import url(./webfonts/fontawesome-all.min.css);
@@ -12,6 +12,9 @@
 @import url(./menu.css);
 @import url(./kontaktForm.css);
 @import url(./malowanie_template.css);
+@import url(./gallery-grid.css);
+@import url(./slider-images-futures.css);
+
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -185,6 +188,20 @@ text-align: center;
 margin-top: 30%;
 }
 
+._404 button{
+
+padding: 20px;
+transition: all ease-in-out 0.5;
+
+}
+
+._404 button:hover{
+
+  background-color: var(--colorRed);
+  padding: 20px;
+  
+  }
+
 /* Basic */
 
 @-ms-viewport {
@@ -300,9 +317,7 @@ textarea {
 }
 
 @media screen and (min-width: 480px) {
-  nav#burger {
-    display: none;
-  }
+
 
   * body,
   input,
@@ -316,9 +331,7 @@ textarea {
 @media screen and (max-width: 480px) {
 
   /* nav#burger {display: none;} */
-  nav#desktop {
-    display: none;
-  }
+
 
   * body,
   input,
@@ -4256,9 +4269,10 @@ body.is-preload #banner p {
 
 #footer .inner form {
   margin: 0 3em 0 0;
-  width: calc(30% - 1.5em);
-  padding-right: 1%;
-  margin-right: 18%;
+  width: calc(46% - 1em);
+  padding-right: 2%;
+  margin-right: 0%;
+
 }
 #footer .inner .contactInfo {
  
@@ -4320,6 +4334,41 @@ body.is-preload #banner p {
       center;
     margin-top: -6.5em;
     padding-top: 6.5em;
+  }
+
+}
+#footer .inner {
+  padding: 0em 0em 0em 0em;
+  
+  margin-top: 1em;
+  padding-top: 4.75em;
+}
+@media screen and (min-width:966px){
+
+  nav#burger{
+
+    display:none !important;
+  }
+
+}
+@media screen and (max-width:966px){
+
+  #header nav#desktop{
+  display: none;
+  }
+  nav#burger {
+display:block;
+
+  }  
+  nav.mobile{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+
+
+
   }
 
 }

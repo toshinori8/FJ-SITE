@@ -18,7 +18,7 @@ function MenuOver() {
   }
   return (
     <>
-      <nav id="menu">
+      <nav id="menu" className="mobile">
 
 
         <div className="inner">

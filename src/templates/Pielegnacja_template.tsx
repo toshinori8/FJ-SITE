@@ -5,11 +5,18 @@ import Footer from '@/layout/Elements/Footer';
 import Menu from '@/layout/Elements/menu/Menu';
 import MenuOver from '@/layout/Elements/menu/MenuOver';
 import MenuItems from '@/layout/Elements/menu/MenuItems';
+import { motion } from 'framer-motion';
 
 type IMainProps = {
   meta: ReactNode;
   children: ReactNode;
 };
+
+const variants = {
+  hidden: { opacity: 0, x: 0, y: 0 },
+  enter: { opacity: 1, x: 0, y: 0 },
+  exit: { opacity: 0, x: 0, y: -100 },
+}
 
 
 const Pielegnacja_template = (props: IMainProps) => (
@@ -20,7 +27,22 @@ const Pielegnacja_template = (props: IMainProps) => (
 
       Malowanie
 
-    <section id="wrapper">{props.children}</section>
+     
+<section id="wrapper">
+  
+  
+  <motion.main
+      variants={variants} // Pass the variant object into Framer Motion 
+      initial="hidden" // Set the initial state to variants.hidden
+      animate="enter" // Animated state to variants.enter
+      exit="exit" // Exit state (used later) to variants.exit
+      transition={{ type: 'linear' }} // Set the transition to linear
+      className=""
+  >
+    {props.children}
+    
+    </motion.main>
+    </section>
 
 
 

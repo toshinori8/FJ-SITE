@@ -12,15 +12,17 @@
   -moz-box-shadow: 0 8px 84px 129px rgba(0, 0, 0, 0.1);
 }
 .wrapper.spotlight .image img {
-  opacity: 0.6;
+  opacity: 1;
 }
 .wrapper.spotlight .image img{
-  border-radius:0px !important;
+  border-radius:3px !important;
+  border:10px solid rgba(0, 0, 0, 0.03);
  }
  .wrapper.spotlight .image{
   border-radius:0px !important;
  }
 #three {
+  
   box-shadow: 0 8px 84px 129px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 8px 84px 129px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 8px 84px 129px rgba(0, 0, 0, 0.1);
@@ -30,4 +32,25 @@
   box-shadow: 0 8px 84px 129px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 8px 84px 129px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 8px 84px 129px rgba(0, 0, 0, 0.1);
+}
+
+a.special{
+
+background-color: var(--colorRed) !important;
+padding: 5px 14px 3px 5px;
+border-radius:16px 3px;
+
+float:right !important;
+
+}
+a.special.left {
+
+  float:left !important;
+
+
+}
+.features .special {
+
+color: white;
+
 }

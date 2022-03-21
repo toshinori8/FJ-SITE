@@ -42,21 +42,24 @@ function Footer() {
                 </li> */}
               </ul>
             </div>
-            <FadeIn>
+          
               <ul className="copyright">
-              <br></br><br></br><br></br>
                 <li>&copy; FJ Łukasz Jeleń wszelkie prawa zastrzeone.</li>
                 <li>
                   Code: <a href="http://stream404.art.pl">Stream404</a> /
                   Template: <a href="http://html5up.net">HTML5 UP</a>
                 </li>
-                <br></br>
+             
               </ul>
-            </FadeIn>
+            
           </div>
-        </FadeIn>
+        </FadeIn> 
+        
+        <div className="brake_list"></div>
       </section>
       
+     
+
     </>
   );
 }

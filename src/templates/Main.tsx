@@ -8,12 +8,18 @@ import MenuOver from '@/layout/Elements/menu/MenuOver';
 import useRouter from 'next/router';
 import React from 'react';
 import LogoFJ_white from '@/layout/Elements/LogoFJ_white';
+import { motion } from 'framer-motion';
+import HamMenu from '@/layout/Elements/menu/HamMenu';
 
 type IMainProps = {
   meta: ReactNode;
   children: ReactNode;
 };
-
+const variants = {
+  hidden: { opacity: 0, x: 0, y: 0 },
+  enter: { opacity: 1, x: 0, y: 0 },
+  exit: { opacity: 0, x: 0, y: -100 },
+}
 
 
 const Main = (props: IMainProps) => (
@@ -34,14 +40,32 @@ const Main = (props: IMainProps) => (
           </div>
         </div>
 
-      <MenuOver />
 
       </nav>
-
+      <MenuOver />
+      
   
     </header>
     <Menu />
-    <section id="wrapper">{props.children}</section>
+
+  
+<section id="wrapper">
+  
+  
+<motion.main
+    variants={variants} // Pass the variant object into Framer Motion 
+    initial="hidden" // Set the initial state to variants.hidden
+    animate="enter" // Animated state to variants.enter
+    exit="exit" // Exit state (used later) to variants.exit
+    transition={{ type: 'linear' }} // Set the transition to linear
+    className=""
+>
+  {props.children}
+  
+  </motion.main>
+  </section>
+
+    
 
     <Footer />
 

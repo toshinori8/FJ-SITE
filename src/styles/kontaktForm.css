@@ -3,9 +3,9 @@
 
 form .overflow{
 
-
+  visibility:hidden;
   opacity: 0;
-  
+  display:none;
   background-image: url(../images/bg.jpg);
   background-color: #2e3141;
   background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/bg.jpg");
@@ -58,6 +58,7 @@ color: white;
 
 body.overflow .overflow{
   opacity: 1;
+  display: block;
   visibility: visible;
   position: fixed;
   width: 100%;
