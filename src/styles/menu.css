@@ -129,12 +129,28 @@ nav#desktop .icon.solid.fa-home:hover{
 
 
 
+body.is-menu-visible nav#burger{
+  position: fixed;
+  top: 31%;
+  right: 24%;
+  /* margin: 9px; */
+  z-index: 500;
+  /* padding-left: 112px; */
+  /* background: RGBA(84, 100, 153, 1.00); */
+  width: 80px;
+  height: 80px;
+  margin-right: 21px;
 
+}
 
   #menu.mobile{
-
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    margin-top: -8px;
     position:fixed;
-
+padding:0px;
     width: 100%;
     height: 100%;
   }

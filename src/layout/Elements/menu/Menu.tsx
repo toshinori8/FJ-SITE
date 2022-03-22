@@ -9,8 +9,12 @@ function Menu() {
     
 
     document.addEventListener('keydown', function e(event) {
+
+      let el = document.getElementById('nav-icon');
+
       if (event.keyCode === 27) {
         document.body.classList.remove('is-menu-visible');
+        el?.classList.remove('open');
         //  console.log('ESC');
       }
       // console.log(event.keyCode);
