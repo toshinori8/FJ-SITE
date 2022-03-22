@@ -24,7 +24,14 @@ function Menu() {
     e.preventDefault();
     // console.log('showMobileMenu');
     document.body.classList.toggle('is-menu-visible');
-    
+   let el = document.getElementById('nav-icon');
+        el?.classList.toggle('open');
+        let clos = document.getElementById('nav-icon')?.classList.contains('open');
+       if(!clos){ 
+         document.body.classList.toggle('is-menu-visible'); 
+         el?.classList.remove('open');
+        }
+
   };
 
   const variants = {

@@ -32,7 +32,7 @@ opacity:0.3;
   position: absolute;
   height: 8px;
   width: 100%;
-  background: #f39200;
+  background: var(--colorRed);
   border-radius: 9px;
   opacity: 1;
   left: 0;

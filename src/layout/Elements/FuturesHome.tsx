@@ -74,7 +74,7 @@ const FuturesHome = () => {
               <img src="/assets/images/pielegnacja-ogrodow/2.jpg" />
               <img src="/assets/images/pielegnacja-ogrodow/3.jpg" />
               <img src="/assets/images/pielegnacja-ogrodow/4.jpg" />
-              <img src="/assets/images/pielegnacja-ogrodow/5.jpg" />
+              <img src="/assets/images/pielegnacja-ogrodow/6.jpg" />
             </div>
           </div>
 

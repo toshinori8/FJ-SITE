@@ -6,20 +6,20 @@ function MenuItems() {
 
   return (
     <ul className='primary'>
-      <li>
+      {/* <li>
         <Link href="/"><span className="icon solid fa-home"></span></Link>
-      </li>
-      <ul>
+      </li> */}
+      
         <li>
-          <Link href="/oferta/malowanie-dachow">Malowanie</Link>
+          <Link href="/oferta/malowanie-dachow">Malowanie dachów</Link>
         </li>
         <li>
-          <Link href="/oferta/pielegnacja-ogrodow">Ogrody</Link>
+          <Link href="/oferta/pielegnacja-ogrodow">Pielęgnacja ogroów</Link>
         </li>
-      </ul>
-      <li>
+      
+      {/* <li>
         <Link href="/wycena/">Wycena</Link>
-      </li>
+      </li> */}
       <li>
         <Link href="/kontakt/">Kontakt</Link>
       </li>

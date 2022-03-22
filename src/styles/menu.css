@@ -57,24 +57,39 @@ nav#desktop .wrapperLogo .inner {
 nav#desktop .wrapperLogo.hidden svg {
   opacity: 0;
   /* visibility: hidden; */
+  
 }
 nav#desktop .wrapperLogo svg {
   width: 60px;
   margin-right: 200px;
   margin-top: 6px;
   margin-left: 25px;
+  cursor: pointer;
  }
  nav#desktop .wrapperLogo svg path.white{
   fill:white;
 }
+/* nav#desktop ul.primary li:nth-child(1){
+  padding-right: 0px;
+width:30px;
+padding-top: 12px;
+} */
+nav#desktop ul.primary a{
+  height: 39px;
+  margin-top: -5px;
+  padding-top: 5px;
+}
 nav#desktop ul.primary {
-      /* right: 0; */
+     /* right: 0; */
     /* border: 0; */
     /* margin: 0; */
     /* padding: 0; */
     list-style: none;
     float: right;
-    width: 50%;
+    height: 40px;
+    width: auto;
+    right: 0px;
+    position: relative;
 
 
 
@@ -83,10 +98,11 @@ nav#desktop ul.primary {
 nav#desktop ul.primary li {
  
   float: left;
-  width: auto;
-  height: 61px;
-  /* padding: 0; */
-  /* font-size: 10px; */
+  width: 120px;
+  font-size: 11px !important;
+  line-height: 16px;
+  height: 106px;
+  padding-top: 4px;
 }
 
 nav#desktop ul li a {
@@ -109,4 +125,16 @@ transition: all 0.2s ease-in-out;
 }
 nav#desktop .icon.solid.fa-home:hover{
   color: rgba(255,255,255, 0.525);
+  }
+
+
+
+
+
+  #menu.mobile{
+
+    position:fixed;
+
+    width: 100%;
+    height: 100%;
   }
