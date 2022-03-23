@@ -101,8 +101,10 @@ nav#desktop ul.primary li {
   width: 120px;
   font-size: 11px !important;
   line-height: 16px;
-  height: 106px;
+  height: 38px;
   padding-top: 4px;
+  vertical-align: middle;
+  text-align: end;
 }
 
 nav#desktop ul li a {

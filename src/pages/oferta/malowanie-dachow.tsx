@@ -90,8 +90,7 @@ const Malowanie = () => {
                 Nakładanie kolejnych powłok malarskich wykonujemy przy pomocy
                 agregatu hydrodynamicznego z podajnikiem o długości 30m, który
                 pod ciśnieniem 210Bar dostarcza farbę dokładnie w miejsce
-                opracowywanego pokrycia dachowego. Dzieki temu farbę wtłaczamy w
-                każdą szczelinę pokrycia.
+                opracowywanego pokrycia dachowego lub na zyczenie klienta metodami tradycyjnymi (pędzel, szczotka).
               </p>
               <div className="brake_list"> </div>
               <p>

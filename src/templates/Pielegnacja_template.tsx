@@ -1,10 +1,12 @@
-import { ReactNode } from 'react';
+ import { ReactNode } from 'react';
 
 import Banner from '@/layout/Elements/Banner';
 import Footer from '@/layout/Elements/Footer';
 import Menu from '@/layout/Elements/menu/Menu';
 import MenuOver from '@/layout/Elements/menu/MenuOver';
 import MenuItems from '@/layout/Elements/menu/MenuItems';
+import LogoFJ from '@/layout/Elements/LogoFJ';
+import LogoFJ_white from '@/layout/Elements/LogoFJ';
 import { motion } from 'framer-motion';
 
 type IMainProps = {
@@ -18,17 +20,30 @@ const variants = {
   exit: { opacity: 0, x: 0, y: -100 },
 }
 
-
 const Pielegnacja_template = (props: IMainProps) => (
   <>
     {props.meta}
   
+    <header id="header" className="alt">
+      <nav id="desktop">
 
+        <div className="wrapperLogo ">
+          <div className="inner">
+            <LogoFJ_white />
+            <MenuItems />
+          </div>
+        </div>
 
-      Malowanie
+      <MenuOver />
 
-     
-<section id="wrapper">
+      </nav>
+
+  
+    </header>
+    <Menu />
+
+    
+<section id="wrapper" className="pielegnacja_template">
   
   
   <motion.main
@@ -43,8 +58,6 @@ const Pielegnacja_template = (props: IMainProps) => (
     
     </motion.main>
     </section>
-
-
 
 
     {/* <script type="module" src="js/main.js"></script>
