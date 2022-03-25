@@ -20,7 +20,11 @@
     z-index: 10;
     -webkit-animation: image 30s infinite alternate;
     animation: image 30s infinite alternate;
+    /* background-position-x: -200px; */
 }
+
+
+
 
 @keyframes image {
   0% {

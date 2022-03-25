@@ -13,9 +13,20 @@ color: var(--colorRed);
 
   background-color: rgba(255,255,255, 0.125);
   color: var(--colorRed);
+  animation: 3s hover_menu ease-in;
+  /* transition: all 0.5s 1.1s ease-in; */
   }
 
+  @keyframes hover_menu{ 
 
+
+    0%{
+      background-position-y: -200px;
+    }
+    100%{
+      background-position-y: 0px;
+    }
+  }
 
 
 #header nav#desktop {
