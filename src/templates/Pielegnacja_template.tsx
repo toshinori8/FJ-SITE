@@ -41,9 +41,9 @@ const Pielegnacja_template = (props: IMainProps) => (
   
     </header>
     <Menu />
-
-    
-<section id="wrapper" className="pielegnacja_template">
+ {props.children}
+{/*     
+<div className="pielegnacja_template">
   
   
   <motion.main
@@ -54,10 +54,10 @@ const Pielegnacja_template = (props: IMainProps) => (
       transition={{ type: 'linear' }} // Set the transition to linear
       className=""
   >
-    {props.children}
+   
     
     </motion.main>
-    </section>
+    </div> */}
 
 
     {/* <script type="module" src="js/main.js"></script>

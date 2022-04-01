@@ -52,7 +52,7 @@ const KontaktForm = () => {
   
          
           if (response.status === 200) {
-                  console.log(response.data);
+                  // console.log(response.data);
 
 
           }
@@ -69,6 +69,17 @@ const KontaktForm = () => {
 
           messageAllert = "Wiadomość wysłana";
         if(mesO) mesO.innerHTML = messageAllert
+
+        function hideOver() {
+          
+          
+          sending = false;
+
+          document.body.classList.toggle('overflow');
+        
+        
+        }
+        setTimeout(hideOver, 3000)
 
         });
 

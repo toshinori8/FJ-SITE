@@ -55,36 +55,47 @@ const Meta = (props: IMetaProps) => {
         </noscript> */}
         <link
           rel="apple-touch-icon"
-          href={`${router.basePath}/apple-touch-icon.png`}
+          href={`${router.basePath}/assets/images/favicons/apple-touch-icon.png`}
           key="apple"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href={`${router.basePath}/favicon-32x32.png`}
+          href={`${router.basePath}/assets/images/favicons/favicon-32x32.png`}
           key="icon32"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href={`${router.basePath}/favicon-16x16.png`}
+          href={`${router.basePath}/assets/images/favicons/favicon-16x16.png`}
           key="icon16"
         />
         <link
           rel="icon"
-          href={`${router.basePath}/favicon.ico`}
+          href={`${router.basePath}/assets/images/favicons/favicon.ico`}
           key="favicon"
         />
       </Head>
       <NextSeo
+        
         title={props.title}
         description={props.description}
         canonical={props.canonical}
         openGraph={{
+          type: 'website',
           title: props.title,
           description: props.description,
+          images: [
+            {
+              url: router.asPath+'/assets/pielegnacja/images/bg_1.jpg)',
+              width: 800,
+              height: 600,
+              alt: props.description,
+              type: 'image/jpeg',
+            }
+          ],
           url: props.canonical,
           locale: AppConfig.locale,
           site_name: AppConfig.site_name,

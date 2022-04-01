@@ -4,7 +4,11 @@
   width: 100%;
   display: grid;
   grid-auto-flow: dense;
-  grid-template: '1fr 1fr 1fr ' 33.33vh '1fr 1fr 1fr ' 33.33vh '1fr 1fr 1fr ' 33.33vh '1fr 1fr 1fr ' 33.33vh;
+  grid-template: 
+  '1fr 1fr 1fr ' 33.33vh 
+  '1fr 1fr 1fr ' 33.33vh 
+  '1fr 1fr 1fr ' 33.33vh
+  ;
 
   grid-template-columns: repeat(33.33vh, 0px);
 }
@@ -118,6 +122,9 @@
       grid-column: span 2;
  }
   */
+  #gallerGrid .box {
+    grid-column: span 2 !important;
+}
   #gallerGrid .box .description {
       border-left: 10px solid #e28705;
       font-size: 1.2em;
