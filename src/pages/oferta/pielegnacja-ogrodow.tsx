@@ -82,7 +82,7 @@ const Pielegnacja = () => {
 
                         </ul>
                       </div>
-                      <a href="#" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
+                      <a href="#projektowanie" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
                     </div>
                   </div>
                   <div className="col-md-4 d-flex align-items-stretch">
@@ -98,7 +98,7 @@ const Pielegnacja = () => {
                           <li><span>Zakładanie trawników</span></li>
                         </ul>
                       </div>
-                      <a href="#" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
+                      <a href="#realizacja" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
                     </div>
                   </div>
                   <div className="col-md-4 d-flex align-items-stretch">
@@ -121,7 +121,7 @@ const Pielegnacja = () => {
 
                         </ul>
                       </div>
-                      <a href="#" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
+                      <a href="#pielegnacja" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ const Pielegnacja = () => {
       {/* sekcja projektowanie  */}
 
       <section className="ftco-section ftco-no-pt ftco-no-pb bg-light pielegnacja_task">
-        <div className="container">
+        <div className="container" id="projektowanie">
           <div className="row d-flex">
             <div className="col-md-6 d-flex">
               <div className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end image_projektowanie"
@@ -207,7 +207,7 @@ const Pielegnacja = () => {
 {/* sekcja kompleksowa realizacja  */}
 
 <section className="ftco-section ftco-no-pt ftco-no-pb bg-light realizacja_task">
-        <div className="container">
+        <div className="container" id="realizacja">
           <div className="row d-flex">
             
           <div className="col-md-6 pl-md-5">
