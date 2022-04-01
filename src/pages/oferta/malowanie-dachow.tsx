@@ -98,7 +98,7 @@ const Malowanie = () => {
                   <img src="/assets/images/malowanie/dachy_2.jpg" alt="" />
                 </span>
                 Długotrwała jakość i gwarancja jakości to nie tylko stosowanie
-                profesjonalnych powłok lakierniczych to przede wszystkim
+                profesjonalnych farb to przede wszystkim
                 przygotowanie podłoża. Dlatego kładziemy duży nacisk na
                 przygotowanie powierzchni w zależności od rodzaju pokrycia
                 dachowego poprzez:
@@ -162,53 +162,41 @@ const Malowanie = () => {
               <div className="box span">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="https://malowanie-dachow-fj.pl/assets/images/1.jpg" />
+                <img src="/assets/images/realizacje/01.jpg" />
               </div>
 
               <div className="box">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="https://malowanie-dachow-fj.pl/assets/images/2.jpg" />
+                <img src="/assets/images/realizacje/2.jpg" />
               </div>
 
               <div className="box">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="https://malowanie-dachow-fj.pl/assets/images/6.jpg" />
+                <img src="/assets/images/realizacje/6.jpg" />
               </div>
 
               <div className="box span">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="https://malowanie-dachow-fj.pl/assets/images/5.jpg" />
+                <img src="/assets/images/realizacje/02.jpg" />
               </div>
 
               <div className="box span">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="https://malowanie-dachow-fj.pl/assets/images/6.jpg" />
+                <img src="/assets/images/realizacje/6.jpg" />
               </div>
 
               <div className="box  ">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="https://malowanie-dachow-fj.pl/assets/images/1.jpg" />
+                <img src="/assets/images/realizacje/1.jpg" />
               </div>
 
-              <div className="box ">
-                <div className="href"><a href="/oferta/realizacje"></a> </div>
-                <div className="description">Dom jednorodzinny
-                  <br />
-                  <p className="small_desc">8 sierpnia 2019
-                  </p>
-                </div>
-                <img src="https://malowanie-dachow-fj.pl/assets/images/2.jpg" />
-              </div>
-              <div className="box span">
-                <div className="href"><a href="/oferta/realizacje"></a> </div>
-                <div className="description">Dom jednorodzinny</div>
-                <img src="https://malowanie-dachow-fj.pl/assets/images/3.jpg" />
-              </div>
+             
+            
 
 
 
@@ -240,60 +228,7 @@ const Malowanie = () => {
               </h4>
               <br />
 
-              <div className="box alt">
-                <div className="row gtr-uniform">
-                  <div className="col-12">
-                    <span className="image fit">
-                      <img src="/assets/images/1.jpg" alt="" />
-                    </span>
-                  </div>
-                  <div className="col-4">
-                    <span className="image fit">
-                      <img src="/assets/images/2.jpg" alt="" />
-                    </span>
-                  </div>
-                  <div className="col-4">
-                    <span className="image fit">
-                      <img src="/assets/images/6.jpg" alt="" />
-                    </span>
-                  </div>
-                  <div className="col-4">
-                    <span className="image fit">
-                      <img src="/assets/images/7.jpg" alt="" />
-                    </span>
-                  </div>
-                  <div className="col-4">
-                    <span className="image fit">
-                      <img src="/assets/images/7.jpg" alt="" />
-                    </span>
-                  </div>
-                  <div className="col-4">
-                    <span className="image fit">
-                      <img src="/assets/images/5.jpg" alt="" />
-                    </span>
-                  </div>
-                  <div className="col-4">
-                    <span className="image fit">
-                      <img src="/assets/images/6.jpg" alt="" />
-                    </span>
-                  </div>
-                  <div className="col-4">
-                    <span className="image fit">
-                      <img src="/assets/images/6.jpg" alt="" />
-                    </span>
-                  </div>
-                  <div className="col-4">
-                    <span className="image fit">
-                      <img src="/assets/images/7.jpg" alt="" />
-                    </span>
-                  </div>
-                  <div className="col-4">
-                    <span className="image fit">
-                      <img src="/assets/images/5.jpg" alt="" />
-                    </span>
-                  </div>
-                </div>
-              </div>
+             
             </section>
           </div>
         </div>

@@ -18,7 +18,7 @@ function RealizacjeIndex() {
       <article> 
         <Article_R 
         
-        image={'assets/images/1.jpg'}
+        image={'/assets/images/realizacje/1.jpg'}
         title={'Title dynamic'}  
         content={'Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id ulla dignissim dapibus ultrices.'}
         href={"#"}
@@ -30,9 +30,9 @@ function RealizacjeIndex() {
        <article>
         <Article_R 
         
-        image={'assets/images/2.jpg'}
-        title={'Title dynamic'}  
-        content={'Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id ulla dignissim dapibus ultrices.'}
+        image={'/assets/images/realizacje/02.jpg'}
+        title={'Sala gimnastyczna w Szkole Podstawowej im. Romana Jabłońskiego w Łękawicy'}  
+        content={'Malowanie sufitu sali gimnastycznej, renowacja parkietu i sprzetu sportowego'}
         href={"#"}
         
         />

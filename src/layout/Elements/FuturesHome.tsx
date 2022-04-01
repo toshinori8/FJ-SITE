@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import router from 'next/router';
 
 type FuturesHomeProps = {
   enny: string;
@@ -21,8 +22,9 @@ const FuturesHome = () => {
     <>
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="#" className="image">
-            <img src={'/assets/images/1.jpg'} alt="" />
+          <a href="oferta/malowanie-dachow" className="image">
+          
+            <img src='/assets/images/realizacje/1.jpg' alt="" />
           </a>
 
           <div className="content">
@@ -70,15 +72,15 @@ const FuturesHome = () => {
 
           <div id="slider_images_futures">
             <div id="figure">
-              <img src="/assets/images/pielegnacja-ogrodow/6.jpg" />
-              <img src="/assets/images/pielegnacja-ogrodow/2.jpg" />
-              <img src="/assets/images/pielegnacja-ogrodow/3.jpg" />
-              <img src="/assets/images/pielegnacja-ogrodow/4.jpg" />
-              <img src="/assets/images/pielegnacja-ogrodow/6.jpg" />
+              <img src='/assets/images/pielegnacja-ogrodow/6.jpg' />
+              <img src='/assets/images/pielegnacja-ogrodow/2.jpg' />
+              <img src='/assets/images/pielegnacja-ogrodow/3.jpg' />
+              <img src='/assets/images/pielegnacja-ogrodow/4.jpg' />
+              <img src='/assets/images/pielegnacja-ogrodow/6.jpg' />
             </div>
           </div>
 
-          <a href="#" className="special">
+          <a href="oferta/pielegnacja-ogrodow/" className="special">
               POZNAJ SZCZEGÓŁY
             </a>
         </div>
@@ -91,7 +93,7 @@ const FuturesHome = () => {
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="#" className="image">
-            <img src={'/assets/images/3.jpg'} alt="" />
+            <img src={'/assets/images/realizacje/3.jpg'} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Nullam dignissim</h2>

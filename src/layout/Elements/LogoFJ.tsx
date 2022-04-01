@@ -9,8 +9,7 @@ function LogoFJ() {
 <Link href="/">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298 118.7">
-    <style>
-  </style>
+
     <defs>
         <mask id="Mask-1">
             <g transform="translate(75.7,-13.1)">

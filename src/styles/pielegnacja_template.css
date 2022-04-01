@@ -1,4 +1,432 @@
-#wrapper.pielegnacja_template{
+.ofertapielegnacja-ogrodow #wrapper .wrapper {
+  background-color: white;
+}
+
+.ofertapielegnacja-ogrodow .wrapper.no_bottom:nth-child(2):before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23349600%3B' /%3E%3C/svg%3E") !important;
+}
+
+.ofertapielegnacja-ogrodow .wrapper.no_top:after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23349600%3B' /%3E%3C/svg%3E") !important;
+}
+
+.ofertapielegnacja-ogrodow .wrapper {
+  border: 1px solid gray;
+}
+
+body.ofertapielegnacja-ogrodow {
+  background-image: url("../images/whitedot.jpg");
+  background-color: white;
+  color: rgba(0,0,0,0.5);
+}
+
+.ofertapielegnacja-ogrodow .hero-wrap .js-fullheight {
 
 
+
+  height: 1097px;
+
+}
+
+.ofertapielegnacja-ogrodow .hero-wrap {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-align: left;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: gray;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  background-image: url('/assets/pielegnacja/images/bg_1.jpg');
+}
+
+.ofertapielegnacja-ogrodow .hero-wrap .container {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-align: left;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: gray;
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+}
+
+.ofertapielegnacja-ogrodow .hero-wrap .container .row {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-align: left;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: gray;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0;
+  -webkit-box-pack: start !important;
+  justify-content: flex-start !important;
+  -webkit-box-align: center !important;
+  align-items: center !important;
+  height: 1097px;
+}
+
+.ofertapielegnacja-ogrodow .iconSVG_ {
+  width: 50px;
+  height: 50px;
+}
+
+.ofertapielegnacja-ogrodow .services .flatIcon {
+  max-width: 50px;
+}
+
+.ofertapielegnacja-ogrodow .services .flatIcon svg .iconSVGfill {
+  fill: #4e9525 !important;
+}
+
+.ofertapielegnacja-ogrodow .services:hover .flatIcon svg .iconSVGfill {
+  fill: #FAD461 !important;
+}
+
+.ofertapielegnacja-ogrodow .services {
+  max-height: 170px;
+  overflow: hidden;
+  transition: all 1.5s ease-in;
+}
+
+.ofertapielegnacja-ogrodow .services:hover {
+  height: auto;
+  max-height: none;
+  overflow: visible;
+}
+
+.ofertapielegnacja-ogrodow .ftco-section.minHeight {
+  min-height: 408px;
+}
+
+.ofertapielegnacja-ogrodow .services  li {
+  text-align: left;
+  list-style-type: square;
+  margin-left: 20px;
+  color: #4E9525;
+}
+
+.ofertapielegnacja-ogrodow .services .btn-custom {
+  outline: solid 1px #4E9525;
+  margin-top: -10px;
+  transition: all 0.6s linear !important;
+  animation: outline-btn-custoom 1.4s infinite ease-in;
+}
+
+@keyframes outline-btn-custoom {
+  0% {
+    outline: 0px solid RGBA(78,149,37,1.00);
+  }
+  50% {
+    outline: 15px solid RGBA(78,149,37,0.00);
+  }
+  100% {
+    outline: 0px solid RGBA(78,149,37,0.00);
+  }
+}
+
+.ofertapielegnacja-ogrodow section.pielegnacja_task .image_projektowanie{
+  background-image: url('/assets/pielegnacja/images/projekt_01.jpg');
+  min-height: 800px; 
+}
+
+
+
+
+
+.ofertapielegnacja-ogrodow .services-box div {
+  background-color: RGBA(78,149,37,1.00);
+  color: rgba(255,255,255,1);
+}
+
+.ofertapielegnacja-ogrodow .services-box .ovalNumber {
+  color: RGBA(78,149,37,1.00);
+  height: 60px;
+  width: 60px;
+  opacity: 1;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: RGBA(249,250,250,1.00);
+  padding: 15px;
+  padding-left: 24px;
+  padding-top: 10px;
+  border-radius: 60px;
+  position: relative;
+  left: 40px;
+  float: right;
+}
+
+.ofertapielegnacja-ogrodow .services-box ul {
+  text-align: left;
+  list-style-type: square;
+  margin-left: 20px;
+  color: #4E9525;
+}
+
+.ofertapielegnacja-ogrodow .pielegnacja_task .flatIcon,
+.ofertapielegnacja-ogrodow .realizacja_task .flatIcon
+ {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  border-radius: 60px;
+  padding-top: 34px;
+  padding-left: 34px;
+  position: relative !important;
+  background: #4E9525;
+  left: 21px;
+  color: RGBA(249,250,250,1.00);
+  outline: solid 19px RGBA(249,250,250,1.00);
+}
+.ofertapielegnacja-ogrodow .realizacja_task .flatIcon{
+  float: left !important;
+  left: -64px !important;
+  position: absolute !important;
+
+}
+.ofertapielegnacja-ogrodow .pielegnacja_task .flatIcon svg path {
+  fill: RGBA(250,212,97,1.00);
+}
+.ofertapielegnacja-ogrodow .realizacja_task .flatIcon svg path {
+  fill: RGBA(250,212,97,1.00);
+}
+.ofertapielegnacja-ogrodow .realizacja_task .flatIcon svg circle {
+  fill: RGBA(250,212,97,1.00);
+}
+
+/* @media screen and (min-width : 1168px){
+
+  .ofertapielegnacja-ogrodow .ftco-section{
+    position: absolute;
+    left: 50%;
+    margin-left: -588px;
+  
+  }
+  
+
+} */
+.ofertapielegnacja-ogrodow section.distance {
+  min-height: 300px;
+  position: relative;
+}
+
+
+.ofertapielegnacja-ogrodow section.realizacja_task .image_realizacja{
+  background-image: url('/assets/pielegnacja/images/image_5.jpg');
+  min-height: 800px;
+}
+
+
+.ofertapielegnacja-ogrodow .image_realizacja{
+  
+  left: 0px;
+  width: 100%;
+  min-height: 613px;;
+  position: relative;
+  opacity: 1;
+  background-size: cover;
+  z-index: 10;
+  -webkit-animation: image 20s infinite alternate;
+  animation: image01 20s infinite alternate;
+  /* background-position-x: -200px; */
+}
+
+
+
+
+@keyframes image01 {
+
+0% {
+ 
+  background-image: url('/assets/pielegnacja/images/image_5.jpg');
+}
+33% {
+ 
+  background-image: url('/assets/pielegnacja/images/gallery-3.jpg');
+}
+
+
+66% {
+  background-image: url('/assets/pielegnacja/images/trawnik-1.jpg');
+}
+100%{
+  background-image: url('/assets/pielegnacja/images/image_5.jpg');
+}
+
+}
+.ofertapielegnacja-ogrodow section#footer h2 {
+  color: white !important;
+}
+
+.ofertapielegnacja-ogrodow section#footer  {
+  background: RGBA(46,60,41,1.00);
+  color: white !important;
+
+}
+.ofertapielegnacja-ogrodow section#footer .major{
+
+font-size:1.2em;
+
+}
+
+.ofertapielegnacja-ogrodow section#footer form label,
+.ofertapielegnacja-ogrodow section#footer a,
+.ofertapielegnacja-ogrodow section#footer input[type="text"]{
+
+  color: white !important;
+
+
+}
+
+
+@media (max-width: 1366px){
+  .ofertapielegnacja-ogrodow .hero-wrap{
+     max-height:800px;
+  }
+  .ofertapielegnacja-ogrodow .hero-wrap .container .ftco-animate{
+
+    top:-200px;
+
+}
+}
+@media (max-width: 700px){
+  .ofertapielegnacja-ogrodow .slider-text h1 {
+      font-size: 40px !important;
+  }
+  .ofertapielegnacja-ogrodow .hero-wrap .container{
+    max-width: 618px !important;
+  }
+
+  .ofertapielegnacja-ogrodow .hero-wrap .container .ftco-animate{
+
+      padding:20px;
+
+  }
+}
+@media (max-width: 991.98px){
+.ofertapielegnacja-ogrodow .slider-text h1 {
+    font-size: 60px;
+}
+.ofertapielegnacja-ogrodow .hero-wrap .container{
+  max-width: 618px !important;
+}
+}
+
+@media only screen and (max-width:1200px) { 
+  .ofertapielegnacja-ogrodow .hero-wrap .container{
+    max-width: 920px;
+  }
+
+}
+@media only screen and (min-width:1200px) { 
+  .ofertapielegnacja-ogrodow nav#desktop .wrapperLogo svg{
+    margin-left: -60px;
+  }
+  .ofertapielegnacja-ogrodow .hero-wrap .container{
+    max-width: 1050px;
+  }
 }

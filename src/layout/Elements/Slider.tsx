@@ -1,7 +1,7 @@
 function Slider() {
   return (
     <>
-      <div className="sliderJJ">.</div>
+      <div className="sliderJJ"></div>
     </>
   );
 }
