@@ -46,8 +46,7 @@ function Footer() {
               <ul className="copyright">
                 <li>&copy; FJ Łukasz Jeleń wszelkie prawa zastrzeone.</li>
                 <li>
-                  Code: <a href="http://stream404.art.pl">Stream404</a> /
-                  Template: <a href="http://html5up.net">HTML5 UP</a>
+                  Code: <a href="http://stream404.art.pl">Stream404</a> 
                 </li>
              
               </ul>
