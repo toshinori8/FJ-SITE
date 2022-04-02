@@ -10,10 +10,17 @@ import Hand_svg from '@/layout/Elements/hand_svg';
 import Blueprint_svg from '@/layout/Elements/blueprint_svg';
 import FadeIn from '@/layout/Elements/FadeIn';
 
+import * as Scroll from "react-scroll";
+import { Link, animateScroll as scroll, scroller } from "react-scroll";
+import { Element } from "react-scroll/modules";
 
 
 const Pielegnacja = () => {
   const router = useRouter();
+
+  const scrollToTop = function () {
+    scroll.scrollToTop();
+  };
 
   return (
     <Pielegnacja_template
@@ -49,10 +56,11 @@ const Pielegnacja = () => {
             <div className="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
               <div className="col-md-6 ftco-animate">
                 {/* <h2 className="subheading">Witaj w FJ Pielęgnacja ogrodów</h2> */}
-                <h1>Piękno ogrodów dla każdego</h1>
+                <h1>Piękno ogrodów dla każdego</h1>         
                 <p className="mb-4 subheading">Sprawdz co moemy zrobić dla twojego ogrodu</p>
                 {/* <p><a href="#" className="btn btn-primary mr-md-4 py-2 px-4">Nasze usługi<span className="ion-ios-arrow-forward"></span></a></p> */}
               </div>
+
             </div>
           </FadeIn>
 
@@ -82,7 +90,8 @@ const Pielegnacja = () => {
 
                         </ul>
                       </div>
-                      <a href="#" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
+                      <Link className="btn-custom d-flex align-items-center justify-content-center" to="projektowanie" smooth={true}><span className="ion-ios-arrow-round-forward"></span> </Link>
+                      {/* <a href="#projektowanie"  onClick={(event) => scroll.scrollTo(100, { containerId:"projektowanie" }) } className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a> */}
                     </div>
                   </div>
                   <div className="col-md-4 d-flex align-items-stretch">
@@ -91,6 +100,8 @@ const Pielegnacja = () => {
                         <span className="flatIcon"><Hand_svg /> </span>
                       </div>
                       <div className="text">
+
+                      
                         <h3>Kompleksowa realizacja</h3>
                         <ul>
 
@@ -98,7 +109,8 @@ const Pielegnacja = () => {
                           <li><span>Zakładanie trawników</span></li>
                         </ul>
                       </div>
-                      <a href="#" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
+                      <Link className="btn-custom d-flex align-items-center justify-content-center" to="realizacja" smooth={true}><span className="ion-ios-arrow-round-forward"></span> </Link>
+                      {/* <a href="#realizacja" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a> */}
                     </div>
                   </div>
                   <div className="col-md-4 d-flex align-items-stretch">
@@ -121,7 +133,9 @@ const Pielegnacja = () => {
 
                         </ul>
                       </div>
-                      <a href="#" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
+                      <Link className="btn-custom d-flex align-items-center justify-content-center" to="pielegnacja" smooth={true}><span className="ion-ios-arrow-round-forward"></span> </Link>
+
+                      {/* <a href="#pielegnacja" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a> */}
                     </div>
                   </div>
                 </div>
@@ -137,8 +151,8 @@ const Pielegnacja = () => {
 
       {/* sekcja projektowanie  */}
 
-      <section className="ftco-section ftco-no-pt ftco-no-pb bg-light pielegnacja_task">
-        <div className="container">
+      <section id="projektowanie" className="ftco-section ftco-no-pt ftco-no-pb bg-light pielegnacja_task">
+        <div className="container" >
           <div className="row d-flex">
             <div className="col-md-6 d-flex">
               <div className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end image_projektowanie"
@@ -153,6 +167,7 @@ const Pielegnacja = () => {
               <div className="row justify-content-start py-5">
                 <div className="col-md-12 heading-section ftco-animate">
 
+                <br/><br/>
                   <h2 className="mb-4">Projektowanie<br/>ogrodów</h2>
                   <span className="subheading">Etapy projektowania</span>
                   <br />
@@ -207,13 +222,13 @@ const Pielegnacja = () => {
 {/* sekcja kompleksowa realizacja  */}
 
 <section className="ftco-section ftco-no-pt ftco-no-pb bg-light realizacja_task">
-        <div className="container">
+        <div className="container"  id="realizacja">
           <div className="row d-flex">
             
           <div className="col-md-6 pl-md-5">
               <div className="row justify-content-start py-5">
                 <div className="col-md-12 heading-section ftco-animate">
-
+                <br/><br/>
                   <h2 className="mb-4">KOMPLEKSOWA<br/>REALIZACJA
 </h2>
                   {/* <span className="subheading">Etapy projektowania</span> */}
@@ -266,7 +281,10 @@ const Pielegnacja = () => {
       </section>
 
 
+
       <Footer />
+      <a href="#" className="asd" onClick={scrollToTop}>scroller xxx</a>
+
     </Pielegnacja_template>
   );
 };

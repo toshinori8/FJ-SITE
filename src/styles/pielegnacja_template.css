@@ -28,6 +28,12 @@ body.ofertapielegnacja-ogrodow {
 
 }
 
+.ofertapielegnacja-ogrodow .btn-custom:hover{
+
+  cursor:pointer;
+
+}
+
 .ofertapielegnacja-ogrodow .hero-wrap {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -188,15 +194,15 @@ body.ofertapielegnacja-ogrodow {
 }
 
 .ofertapielegnacja-ogrodow .services {
-  max-height: 170px;
-  overflow: hidden;
+  /* max-height: 170px;
+  overflow: hidden; */
   transition: all 1.5s ease-in;
 }
 
 .ofertapielegnacja-ogrodow .services:hover {
-  height: auto;
+  /* height: auto;
   max-height: none;
-  overflow: visible;
+  overflow: visible; */
 }
 
 .ofertapielegnacja-ogrodow .ftco-section.minHeight {
@@ -411,6 +417,19 @@ font-size:1.2em;
 .ofertapielegnacja-ogrodow .slider-text h1 {
     font-size: 60px;
 }
+
+.ofertapielegnacja-ogrodow .services h3
+  {
+ 
+  font-size: 13px !important;
+}
+
+.ofertapielegnacja-ogrodow .services li
+  {
+    line-height:15px;
+    font-size: 11px !important;
+}
+
 .ofertapielegnacja-ogrodow .hero-wrap .container{
   max-width: 618px !important;
 }
