@@ -14,8 +14,10 @@ const Malowanie = () => {
       meta={
         <Meta
           title="Malowanie dachów"
-          description="Malowanie dachówki, czyszczenie impregnacja"
-        />
+          description="Profesjonalne malowanie dachów, czyszczenie impregnacja"
+       
+       
+          />
       }
     >
       <section id="wrapper">

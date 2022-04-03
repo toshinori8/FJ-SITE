@@ -22,7 +22,9 @@ const Pielegnacja = () => {
         <Meta
           title="Pielęgnacja ogrodów"
           description="Projektowanie, Pielęgnacja i realizacja ogrodów "
-
+          og_image='assets/og-image/pielegnacja01.jpg'
+          og_image_width={1200}
+          og_image_height={884}
         />
       }
     >
