@@ -12,11 +12,6 @@ function Banner() {
 
         <div className="inner">
           <div className="w-1/4 logo">
-            {/* <img
-                alt="FJ Malowanie dachów"
-                src={`${router.basePath}/assets/images/fjLogo.svg`}
-              />
-               */}
             <LogoFJ />
           </div>
           <h2>Malowanie dachów</h2>

@@ -3488,7 +3488,9 @@ button:disabled,
   max-width: 100%;
   opacity: 0;
   position: relative;
-  width: 18em;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
 }
 
 #menu h2 {
@@ -3573,6 +3575,14 @@ body.is-menu-visible #menu {
   z-index: 40;
 }
 
+body.is-menu-visible #menu .ul.primary{
+
+  position: absolute;
+  /* margin-top: -200px; */
+  top: 50%;
+  width: 100%;
+}
+
 body.is-menu-visible #menu .inner {
   -moz-transform: translateY(0);
   -webkit-transform: translateY(0);
@@ -3585,8 +3595,28 @@ body.is-menu-visible #menu .inner {
 
 #banner {
   padding: 10em 0 4.75em 0;
-  min-height: 755px;
+  min-height: 705px;
 }
+@media only screen and (min-width:1000px) { 
+  #banner {
+    min-height: 705px;
+    
+  }
+  #banner .sliderJJ{
+
+    background-position: right;
+  }
+}
+@media only screen and (max-width:700px) { 
+  
+  #banner .sliderJJ{
+
+    background-position: 0 -240px;
+    background-size: cover;
+  }
+}
+
+
 
 #banner .inner {
   margin: 0 auto;
@@ -3868,7 +3898,7 @@ body.is-preload #banner p {
 
 .wrapper:before {
   left: 0;
-  top: -6.5em;
+  top: -6.46em;
 }
 
 .wrapper:after {
@@ -4005,11 +4035,11 @@ body.is-preload #banner p {
 }
 
 .wrapper.spotlight:before {
-  box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+  /* box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96; */
 }
 
 .wrapper.spotlight:after {
-  box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+  /* box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96; */
 }
 
 .wrapper.spotlight .inner {

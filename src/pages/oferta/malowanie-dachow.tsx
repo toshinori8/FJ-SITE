@@ -43,19 +43,19 @@ const Malowanie = () => {
                 <div className="imageCentered">
                   <img
                     src="/assets/images/malowanie/dachy_cementowe.jpg"
-                    alt="Malowanie dachów ceramicznych"
+                    alt="Malowanie dachów cementowych"
                   />
                 </div>
                 <div className="imageCentered">
                   <img
                     src="/assets/images/malowanie/dachy_blaszane.jpg"
-                    alt="Malowanie dachów ceramicznych"
+                    alt="Malowanie dachów blaszanych"
                   />
                 </div>
                 <div className="imageCentered">
                   <img
                     src="/assets/images/malowanie/dachy_blachodachowka.jpg"
-                    alt="Malowanie dachów ceramicznych"
+                    alt="Malowanie dachów z blachodachówki"
                   />
                 </div>
               </div>
@@ -79,7 +79,7 @@ const Malowanie = () => {
             <section>
               <p>
                 <span className="image left">
-                  <img src="/assets/images/malowanie/dachy_1.jpg" alt="" />
+                  <img src="/assets/images/malowanie/dachy_1.jpg" alt="Malowanie dachów - sprzęt alpinistyczny" />
                 </span>
                 W naszej pracy wykorzystujemy sprzęt alpinistyczny co zapewnia
                 bezpieczeństwo pracy oraz dotarcie do każdego miejsca i
@@ -95,7 +95,7 @@ const Malowanie = () => {
               <div className="brake_list"> </div>
               <p>
                 <span className="image right">
-                  <img src="/assets/images/malowanie/dachy_2.jpg" alt="" />
+                  <img src="/assets/images/malowanie/dachy_2.jpg" alt="Efekt odnowienia dachu. Malowanie dachu natryskowe" />
                 </span>
                 Długotrwała jakość i gwarancja jakości to nie tylko stosowanie
                 profesjonalnych farb to przede wszystkim
@@ -162,19 +162,19 @@ const Malowanie = () => {
               <div className="box span">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="/assets/images/realizacje/01.jpg" />
+                <img src="/assets/images/realizacje/01.jpg"  alt="Pokrycia dachowe malowanie domu"/>
               </div>
 
               <div className="box">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="/assets/images/realizacje/2.jpg" />
+                <img src="/assets/images/realizacje/2.jpg"  alt="malowanie porównaniebudynek "/>
               </div>
 
               <div className="box">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="/assets/images/realizacje/6.jpg" />
+                <img src="/assets/images/realizacje/6.jpg"  alt=""/>
               </div>
 
               <div className="box span">

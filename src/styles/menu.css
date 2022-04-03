@@ -143,16 +143,12 @@ nav#desktop .icon.solid.fa-home:hover{
 
 
 body.is-menu-visible nav#burger{
-  position: fixed;
-  top: 31%;
-  right: 24%;
-  /* margin: 9px; */
+  position: absolute;
+ 
   z-index: 500;
-  /* padding-left: 112px; */
-  /* background: RGBA(84, 100, 153, 1.00); */
-  width: 80px;
-  height: 80px;
-  margin-right: 21px;
+  
+  width: 100%;
+  
 
 }
 

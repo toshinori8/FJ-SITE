@@ -9,6 +9,7 @@ import Footer from '@/layout/Elements/Footer';
 import Hand_svg from '@/layout/Elements/hand_svg';
 import Blueprint_svg from '@/layout/Elements/blueprint_svg';
 import FadeIn from '@/layout/Elements/FadeIn';
+import { Link } from 'react-scroll';
 
 
 
@@ -21,7 +22,7 @@ const Pielegnacja = () => {
         <Meta
           title="Pielęgnacja ogrodów"
           description="Projektowanie, Pielęgnacja i realizacja ogrodów "
-          
+
         />
       }
     >
@@ -82,7 +83,7 @@ const Pielegnacja = () => {
 
                         </ul>
                       </div>
-                      <a href="#projektowanie" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
+                      <Link className="btn-custom d-flex align-items-center justify-content-center" to="projektowanie" smooth={true}><span className="ion-ios-arrow-round-forward"></span> </Link>
                     </div>
                   </div>
                   <div className="col-md-4 d-flex align-items-stretch">
@@ -98,7 +99,7 @@ const Pielegnacja = () => {
                           <li><span>Zakładanie trawników</span></li>
                         </ul>
                       </div>
-                      <a href="#realizacja" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
+                      <Link className="btn-custom d-flex align-items-center justify-content-center" to="realizacja" smooth={true}><span className="ion-ios-arrow-round-forward"></span> </Link>
                     </div>
                   </div>
                   <div className="col-md-4 d-flex align-items-stretch">
@@ -113,15 +114,15 @@ const Pielegnacja = () => {
                           <li><span>Pielęgnacja roślin</span></li>
                           <li><span>Uzupełnianie i odnowa nasadzeń</span></li>
                           <li><span>Pielęgnacja trawników</span></li>
-                          <li><span>Nawoenie drzew, krzewów, bylin</span></li>
+                          <li><span>Nawożenie drzew, krzewów, bylin</span></li>
                           <li><span>Odchwaszczanie rabat</span></li>
                           <li><span>Zakładanie łąk kwietnych</span></li>
                           <li><span>Grabienie liści</span></li>
-                          <li><span>Przycinanie rzywopłotów</span></li>
+                          <li><span>Przycinanie żywopłotów</span></li>
 
                         </ul>
                       </div>
-                      <a href="#pielegnacja" className="btn-custom d-flex align-items-center justify-content-center"><span className="ion-ios-arrow-round-forward"></span></a>
+                      <Link className="btn-custom d-flex align-items-center justify-content-center" to="pielegnacja" smooth={true}><span className="ion-ios-arrow-round-forward"></span> </Link>
                     </div>
                   </div>
                 </div>
@@ -133,7 +134,7 @@ const Pielegnacja = () => {
 
 
       {/* sekcja odstęp  */}
-   
+
 
       {/* sekcja projektowanie  */}
 
@@ -152,8 +153,8 @@ const Pielegnacja = () => {
             <div className="col-md-6 pl-md-5">
               <div className="row justify-content-start py-5">
                 <div className="col-md-12 heading-section ftco-animate">
-
-                  <h2 className="mb-4">Projektowanie<br/>ogrodów</h2>
+                <br /><br />
+                  <h2 className="mb-4">Projektowanie<br />ogrodów</h2>
                   <span className="subheading">Etapy projektowania</span>
                   <br />
 
@@ -170,8 +171,8 @@ const Pielegnacja = () => {
                     </div>
                     <p className="slideText">
                       Dokonanie szczegółowego pomiaru terenu.
-                      </p>
-<p>                      Po poprawkach a puźniejszej akceptcji projektu tworzymy projekt finalny. 
+                    </p>
+                    <p>                      Po poprawkach a puźniejszej akceptcji projektu tworzymy projekt finalny.
                       Tworzenie projektu (wizualizacja 3D).
                     </p>
                     <hr />
@@ -200,69 +201,123 @@ const Pielegnacja = () => {
       {/* sekcja odstęp kontajkt */}
       <section className="distance">
 
-        
+
 
       </section>
 
-{/* sekcja kompleksowa realizacja  */}
+      {/* sekcja kompleksowa realizacja  */}
 
-<section className="ftco-section ftco-no-pt ftco-no-pb bg-light realizacja_task">
+      <section className="ftco-section ftco-no-pt ftco-no-pb bg-light realizacja_task">
         <div className="container" id="realizacja">
           <div className="row d-flex">
-            
-          <div className="col-md-6 pl-md-5">
+
+            <div className="col-md-6 pl-md-5">
               <div className="row justify-content-start py-5">
                 <div className="col-md-12 heading-section ftco-animate">
-
-                  <h2 className="mb-4">KOMPLEKSOWA<br/>REALIZACJA
-</h2>
+                <br /><br />
+                  <h2 className="mb-4">KOMPLEKSOWA<br />REALIZACJA
+                  </h2>
                   {/* <span className="subheading">Etapy projektowania</span> */}
                   <br />
 
-                  
-                  
+
+
                   <hr />
-                    <p className="slideText first subheading">Wyznaczenie nasadzeń roślin</p>
-                  
-                    <p className="slideText">
-                      Wykonujemy nasadzenia roślin z odpowiednim doborem podłoża.
-                      
-                    </p>
-                    
-                    <p>Dbamy, aby jakość każdej z roślin była jak najwyzsza.</p>
-                    
-                 
-                    <hr />
-                    <p className="slideText first subheading">
-                      
-                      Zakładanie trawników
-                    
-                    </p>
-                  
-                    <p>Oferujemy zakładanie trawników z rolki i z siewu</p>
-                    
+                  <p className="slideText first subheading">Wyznaczenie nasadzeń roślin</p>
+
+                  <p className="slideText">
+                    Wykonujemy nasadzenia roślin z odpowiednim doborem podłoża.
+
+                  </p>
+
+                  <p>Dbamy, aby jakość każdej z roślin była jak najwyzsza.</p>
+
+
+                  <hr />
+                  <p className="slideText first subheading">
+
+                    Zakładanie trawników
+
+                  </p>
+
+                  <p>Oferujemy zakładanie trawników z rolki i z siewu</p>
+
 
                 </div>
               </div>
             </div>
             <div className="col-md-6 d-flex">
-              
-              
-              
+
+
+
               <div className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end image_realizacja"
-              
+
               >
-                 
-              
+
+
                 <span className="flatIcon"><Hand_svg /></span>
                 {/* <a href="https://vimeo.com/45830194" className="icon-video popup-vimeo d-flex justify-content-center align-items-center">
     						<span className="icon-play"></span>
     					</a> */}
               </div>
             </div>
-           
+
           </div>
         </div>
+      </section>
+
+
+
+      {/* sekcja odstęp */}
+      <section className="distance">
+      </section>
+
+
+     {/* sekcja pielegnacja  */}
+
+     <section className="ftco-section ftco-no-pt ftco-no-pb bg-light pielegnacja_task">
+        <div className="container" id="pielegnacja">
+          <div className="row d-flex">
+            <div className="col-md-6 d-flex">
+              <div className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end image_pielegnacja"
+
+              >   <span className="flatIcon "><span className="flaticon-lawn-mower"></span></span>
+                {/* <a href="https://vimeo.com/45830194" className="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+    						<span className="icon-play"></span>
+    					</a> */}
+              </div>
+            </div>
+            <div className="col-md-6 pl-md-5">
+              <div className="row justify-content-start py-5">
+                <div className="col-md-12 heading-section ftco-animate">
+                <br /><br />
+                  <h2 className="mb-4">Pielęgnacja<br />ogrodów</h2>
+                  {/* <span className="subheading">Etapy projektowania</span> */}
+                  <br />
+
+                 
+                  <div className="services-wrap services-box">
+                    
+                  <div className="services-list">Pielęgnacja roślin</div>
+                  <div className="services-list">Uzupełnianie i odnowa nasadzeń</div>
+                  <div className="services-list">Pielęgnacja trawników</div>
+                  <div className="services-list">Nawożenie drzew, krzewów, bylin</div>
+                  <div className="services-list">Odchwaszczanie rabat</div>
+                  <div className="services-list">Zakładanie łąk kwietnych</div>
+                  <div className="services-list">Grabienie liści</div>
+                  <div className="services-list">Przycinanie żywopłotów</div>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    {/* sekcja odstęp */}
+    <section className="distance">
       </section>
 
 

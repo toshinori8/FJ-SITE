@@ -189,7 +189,7 @@ export const getStaticProps = async (context: { params: { slug: never[]; }; }) =
     props: { slug },
   };
 };
-export const getStaticPaths = async (context) => {
+export const getStaticPaths = async () => {
   //const slugs = await getPortfolioSlugs();
   //const slugsList = slugs.map((el) => {
   //  return { params: { slug: el.slug.toString() } };

@@ -60,7 +60,7 @@ opacity:0.3;
   padding: 0px;
   margin: 0px;
   transform: scale(0.4);
-  position: absolute;
+  position: fixed;
   right: 27px;
   top: 36px;
 }

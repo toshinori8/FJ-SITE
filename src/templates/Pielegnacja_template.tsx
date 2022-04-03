@@ -34,10 +34,10 @@ const Pielegnacja_template = (props: IMainProps) => (
           </div>
         </div>
 
-      <MenuOver />
+     
 
       </nav>
-
+ <MenuOver />
   
     </header>
     <Menu />
