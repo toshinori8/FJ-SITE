@@ -12,6 +12,13 @@ type IMetaProps = {
 };
 
 
+let hostname:string='';
+let og_image:string='http://malowanie-dachow-fj.pl/assets/og-image/default.jpg';
+
+
+if (typeof window !== 'undefined') {
+  hostname = window.location.hostname;
+} 
 
 const Meta = (props: IMetaProps) => {
   const router = useRouter();
@@ -25,12 +32,8 @@ const Meta = (props: IMetaProps) => {
         if(classNemm!=="") {
           let classs=  document.querySelector('body')?.classList.add(classNemm)
           let  menuEl = document.querySelector('a[href*="'+router.asPath+'"]')?.parentElement?.classList.toggle('active');
-
-               
-    // console.log(menuEl);
-
-
-
+          console.log(router.asPath.replace(/([/])+/g,''));
+           
         };
       
       
@@ -78,6 +81,9 @@ const Meta = (props: IMetaProps) => {
           key="favicon"
         />
       </Head>
+
+
+      
       <NextSeo
         
         title={props.title}
@@ -89,7 +95,7 @@ const Meta = (props: IMetaProps) => {
           description: props.description,
           images: [
             {
-              url: router.asPath+'/assets/pielegnacja/images/bg_1.jpg)',
+              url: hostname+'/assets/pielegnacja/images/bg_1.jpg)',
               width: 800,
               height: 600,
               alt: props.description,
