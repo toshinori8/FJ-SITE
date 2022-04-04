@@ -14,8 +14,10 @@ const Malowanie = () => {
       meta={
         <Meta
           title="Malowanie dachów"
-          description="Malowanie dachówki, czyszczenie impregnacja"
-        />
+          description="Profesjonalne malowanie dachów, czyszczenie impregnacja"
+       
+       
+          />
       }
     >
       <section id="wrapper">
@@ -160,37 +162,37 @@ const Malowanie = () => {
 
 
               <div className="box span">
-                <div className="href"><a href="/oferta/realizacje"></a> </div>
-                <div className="description">Dom jednorodzinny</div>
+                <div className="href"><a href="/realizacje/domjednorodzinny"></a> </div>
+                <div className="description">Realizacja dom jednorodzinny</div>
                 <img src="/assets/images/realizacje/01.jpg"  alt="Pokrycia dachowe malowanie domu"/>
               </div>
 
               <div className="box">
-                <div className="href"><a href="/oferta/realizacje"></a> </div>
-                <div className="description">Dom jednorodzinny</div>
+                <div className="href"><a href="/realizacje/renowacja"></a> </div>
+                <div className="description">Dach blaszany - renowacja</div>
                 <img src="/assets/images/realizacje/2.jpg"  alt="malowanie porównaniebudynek "/>
               </div>
 
               <div className="box">
-                <div className="href"><a href="/oferta/realizacje"></a> </div>
+                <div className="href"><a href="/realizacje/3"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
                 <img src="/assets/images/realizacje/6.jpg"  alt=""/>
               </div>
 
               <div className="box span">
-                <div className="href"><a href="/oferta/realizacje"></a> </div>
-                <div className="description">Dom jednorodzinny</div>
+                <div className="href"><a href="/realizacje/salagimnastyczna"></a> </div>
+                <div className="description">Sala gimnastyczna</div>
                 <img src="/assets/images/realizacje/02.jpg" />
               </div>
 
               <div className="box span">
-                <div className="href"><a href="/oferta/realizacje"></a> </div>
+                <div className="href"><a href="/realizacje/5"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
                 <img src="/assets/images/realizacje/6.jpg" />
               </div>
 
               <div className="box  ">
-                <div className="href"><a href="/oferta/realizacje"></a> </div>
+                <div className="href"><a href="/realizacje/6"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
                 <img src="/assets/images/realizacje/1.jpg" />
               </div>

@@ -9,9 +9,19 @@ type IMetaProps = {
   title: string;
   description: string;
   canonical?: string;
+  og_image?:string;
+  og_image_width?:number;
+  og_image_height?:number;
 };
 
 
+let hostname:string='';
+
+
+
+if (typeof window !== 'undefined') {
+  hostname = window.location.hostname;
+} 
 
 const Meta = (props: IMetaProps) => {
   const router = useRouter();
@@ -25,13 +35,10 @@ const Meta = (props: IMetaProps) => {
         if(classNemm!=="") {
           let classs=  document.querySelector('body')?.classList.add(classNemm)
           let  menuEl = document.querySelector('a[href*="'+router.asPath+'"]')?.parentElement?.classList.toggle('active');
-
-               
-    // console.log(menuEl);
-
-
-
+          //console.log(router.asPath.replace(/([/])+/g,''));
+           
         };
+        
       
       
 
@@ -78,6 +85,9 @@ const Meta = (props: IMetaProps) => {
           key="favicon"
         />
       </Head>
+
+
+      
       <NextSeo
         
         title={props.title}
@@ -89,12 +99,41 @@ const Meta = (props: IMetaProps) => {
           description: props.description,
           images: [
             {
-              url: router.asPath+'/assets/pielegnacja/images/bg_1.jpg)',
-              width: 800,
+              url: hostname+'/'+props.og_image,
+              width: props.og_image_width,
+              height: props.og_image_height,
+              alt: props.description,
+              type: 'image/jpeg',
+            },
+            {
+              url: 'http://malowanie-dachow-fj.pl/assets/og-image/default.jpg',
+              width: 1200,
+              height: 629,
+              alt: props.description,
+              type: 'image/jpeg',
+            },
+            {
+              url: 'http://malowanie-dachow-fj.pl/assets/og-image/default1.jpg',
+              width: 665,
               height: 600,
               alt: props.description,
               type: 'image/jpeg',
+            },
+            {
+              url: 'http://malowanie-dachow-fj.pl/assets/og-image/default2.jpg',
+              width: 665,
+              height: 600,
+              alt: props.description,
+              type: 'image/jpeg',
+            },
+            {
+              url: 'http://malowanie-dachow-fj.pl/assets/og-image/default3.jpg',
+              width: 1200,
+              height: 767,
+              alt: props.description,
+              type: 'image/jpeg',
             }
+
           ],
           url: props.canonical,
           locale: AppConfig.locale,

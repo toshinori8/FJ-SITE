@@ -18,7 +18,7 @@ export default function  Malowanie(props: { slug: boolean | ReactChild | ReactFr
       meta={
         <Meta
           title="Malowanie dachów"
-          description="Malowanie dachówki, czyszczenie impregnacja"
+          description="Profesjonalne malowanie dachów, czyszczenie impregnacja"
         />
       }
     >
