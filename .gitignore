@@ -16,7 +16,7 @@
 
 # production
 /build
-
+/SourceFiles
 # misc
 .DS_Store
 *.pem
@@ -140,3 +140,6 @@ SourceFiles/FACEBOOK FJ/user-image.jpg
 SourceFiles/FAcebook/reklama---styk-01.jpg
 SourceFiles/zdjeciaq/20210906_140030.psd
 package-lock.json
+SourceFiles/lawncare-master.zip
+
+SourceFiles/

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>http://malowanie-dachow-fj.pl/404/</loc>
+        <lastmod>2022-04-04</lastmod>
+		<xhtml:link rel="alternate" hreflang="pl" href="http://malowanie-dachow-fj.pl/404/" />
+    </url>
+    <url>
+        <loc>http://malowanie-dachow-fj.pl/</loc>
+        <lastmod>2022-04-04</lastmod>
+		<xhtml:link rel="alternate" hreflang="pl" href="http://malowanie-dachow-fj.pl/" />
+    </url>
+    <url>
+        <loc>http://malowanie-dachow-fj.pl/kontakt/</loc>
+        <lastmod>2022-04-04</lastmod>
+		<xhtml:link rel="alternate" hreflang="pl" href="http://malowanie-dachow-fj.pl/kontakt/" />
+    </url>
+    <url>
+        <loc>http://malowanie-dachow-fj.pl/oferta/malowanie-dachow/</loc>
+        <lastmod>2022-04-04</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+		<xhtml:link rel="alternate" hreflang="pl" href="http://malowanie-dachow-fj.pl/oferta/malowanie-dachow/" />
+    </url>
+    <url>
+        <loc>http://malowanie-dachow-fj.pl/oferta/pielegnacja-ogrodow/</loc>
+        <lastmod>2022-04-04</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+		<xhtml:link rel="alternate" hreflang="pl" href="http://malowanie-dachow-fj.pl/oferta/pielegnacja-ogrodow/" />
+    </url>
+    <url>
+        <loc>http://malowanie-dachow-fj.pl/realizacje/[slug]/</loc>
+        <lastmod>2022-04-04</lastmod>
+		<xhtml:link rel="alternate" hreflang="pl" href="http://malowanie-dachow-fj.pl/realizacje/[slug]/" />
+    </url>
+</urlset>

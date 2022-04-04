@@ -11,9 +11,11 @@
     "clean": "rimraf .next out",
     "lint": "next lint",
     "build-types": "tsc --noEmit --pretty",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "sitemap": "node sitemap-generator.js"
   },
   "dependencies": {
+    "@sergeymyssak/nextjs-sitemap": "^2.0.3",
     "axios": "^0.26.1",
     "framer-motion": "^6.2.8",
     "next": "^12.1.0",
