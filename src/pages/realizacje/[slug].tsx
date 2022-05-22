@@ -17,15 +17,16 @@ export default function  Malowanie(props: { slug: boolean | ReactChild | ReactFr
     <Malowanie_template
       meta={
         <Meta
-          title="Malowanie dachów"
-          description="Profesjonalne malowanie dachów, czyszczenie impregnacja"
+          title="FJ Malowanie Dachów"
+          description="Profesjonalne kompleksowe usługi z zakresu mycia, czyszczenia, impregnacji i malowania dachów"
         />
       }
     >
       <section id="wrapper">
         <header>
           <div className="inner">
-            <h2>Realizacja - {props.slug}</h2>
+          
+          <h1 className="text-2xl">Realizacja - {props.slug}</h1>
             <p>
               POZNAJ TECHNOLOGIĘ I PROCES MALOWANIA DACHÓW, Czyszczenia ORAZ
               IMPREGNACJI
@@ -47,7 +48,7 @@ export default function  Malowanie(props: { slug: boolean | ReactChild | ReactFr
             <section>
               <p>
                 <span className="image left">
-                  <img src="/assets/images/malowanie/dachy_1.jpg" alt="" />
+                  <img src="/assets/images/malowanie/dachy_1.jpg" alt="Profesjonalne malowanie natryskowe" />
                 </span>
                 W naszej pracy wykorzystujemy sprzęt alpinistyczny co zapewnia
                 bezpieczeństwo pracy oraz dotarcie do każdego miejsca i
@@ -63,7 +64,7 @@ export default function  Malowanie(props: { slug: boolean | ReactChild | ReactFr
               <div className="brake_list"> </div>
               <p>
                 <span className="image right">
-                  <img src="/assets/images/malowanie/dachy_2.jpg" alt="" />
+                  <img src="/assets/images/malowanie/dachy_2.jpg" alt="Podłoże do malowania, przygotowanie" />
                 </span>
                 Długotrwała jakość i gwarancja jakości to nie tylko stosowanie
                 profesjonalnych farb to przede wszystkim
@@ -92,7 +93,7 @@ export default function  Malowanie(props: { slug: boolean | ReactChild | ReactFr
               <div className="box span">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="/assets/images/realizacje/01.jpg" />
+                <img src="/assets/images/realizacje/01.jpg"  alt="Dom jednorodzinny"/>
               </div>
 
               <div className="box">
@@ -147,9 +148,8 @@ export default function  Malowanie(props: { slug: boolean | ReactChild | ReactFr
               <br />
               <br />
               <p className="text-center">
-                Doświadczenie zdobyliśmy malując dachy na komercyjne inwestycje oraz
-                . Ale z powodzeniem zajmujemy się także domami
-                jednorodzinnymi.
+              Doświadczenie zdobyliśmy malując dachy na inwestycjach komercyjnych i obiektach użyteczności publicznej.
+                Z powodzeniem zajmujemy się także domami jednorodzinnymi.
               </p>
               <br />
               <h4 className="text-center">

@@ -20,7 +20,7 @@ const Pielegnacja = () => {
     <Pielegnacja_template
       meta={
         <Meta
-          title="Pielęgnacja ogrodów"
+          title="Kompleksowe planowanie i pielęgnacja ogrodów"
           description="Projektowanie, Pielęgnacja i realizacja ogrodów "
           og_image='assets/og-image/pielegnacja01.jpg'
           og_image_width={1200}

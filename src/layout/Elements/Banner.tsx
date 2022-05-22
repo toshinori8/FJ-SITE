@@ -14,7 +14,7 @@ function Banner() {
           <div className="w-1/4 logo">
             <LogoFJ />
           </div>
-          <h2>Malowanie dachów</h2>
+          <h1 className="h1_oweride">Malowanie dachów</h1>
           <p>Zupełnie nowy wygląd oraz trwałość na wiele lat</p>
         </div>
         </FadeIn>

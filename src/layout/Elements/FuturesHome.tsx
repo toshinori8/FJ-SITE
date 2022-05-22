@@ -24,16 +24,32 @@ const FuturesHome = () => {
         <div className="inner">
           <a href="oferta/malowanie-dachow" className="image">
           
-            <img src='/assets/images/realizacje/1.jpg' alt="" />
+            <img src='/assets/images/realizacje/1.jpg' alt="FJ malowanie dachów - cennik malowania natryskowego" />
           </a>
+          
 
           <div className="content">
             <h2 className="major">Profesjnalne malowanie i renowacja dachów</h2>
             <p>
               Zajmujemy się kompleksową renowacją, impregnacją pokryć dachowych oraz elementów systemu kominowego
             </p>
+
+<p>Praktycznie każdy dach jest inny i w związku z tym wymaga innej technologii prac i doboru innych materiałów.<br/> </p>
+
+<b>Istotne elementy kształtujące cenę:</b><br/> 
+
+<ul>
+  <li>
+    <h4 className="h4_front" >profil blachy z jakiej wykonane jest poszycie dachowe ( blacha trapezowa, falowana, gładka, blacho dachówka)</h4 >
+    <h4 className="h4_front">stopień degradacji pokrycia dachowego <br/> ( ilość korozji, przetarć, łuszczącej się farby )</h4 >
+    <h4 className="h4_front">gabaryt i krztałt powierzchni dachu</h4 >
+    <h4 className="h4_front">kolor farby jaką pomalowany będzie dach ( koszt zakupu farby związany jest z kolorem</h4>
+    <h4 className="h4_front">technologia materiałowa (rodzaj oraz stan pokrycia dachowego obliguje nas do użycia odpowiednich materiałów. Ich spektrum jest bardzo szerokie a zatem i ceny ich zakupu mają spore rozpiętości cenowe)</h4 >
+  </li>
+</ul>
+
             <a href="/oferta/malowanie-dachow" className="special">
-              Poznaj szczegóły, zamów usługę
+              Poznaj szczegóły, zamów usługę 
             </a>
           </div>
         </div>

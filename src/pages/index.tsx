@@ -13,8 +13,8 @@ const Index = () => {
     <Main
       meta={
         <Meta
-          title="FJ Profesjonalne malowanie dachów"
-          description="Malowanie dachówki, impregnacja,czyszczenie, malowanie elewacji"
+          title="FJ Malowanie Dachów"
+          description="Profesjonalne kompleksowe usługi z zakresu mycia, czyszczenia, impregnacji i malowania dachów"
         />
       }
     >

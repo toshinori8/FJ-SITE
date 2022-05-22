@@ -14,7 +14,7 @@ const Malowanie = () => {
       meta={
         <Meta
           title="Malowanie dachów"
-          description="Profesjonalne malowanie dachów, czyszczenie impregnacja"
+          description="Profesjonalne kompleksowe usługi z zakresu mycia, czyszczenia, impregnacji i malowania dachów"
        
        
           />
@@ -23,10 +23,9 @@ const Malowanie = () => {
       <section id="wrapper">
         <header>
           <div className="inner">
-            <h2>Malowanie dachów</h2>
+            <h1 className="text-2xl">FJ Malowanie dachów</h1>
             <p>
-              POZNAJ TECHNOLOGIĘ I PROCES MALOWANIA DACHÓW, Czyszczenia ORAZ
-              IMPREGNACJI
+              POZNAJ TECHNOLOGIĘ I PROCES MALOWANIA DACHÓW, Czyszczenia ORAZ IMPREGNACJI
             </p>
           </div>
         </header>
@@ -39,25 +38,25 @@ const Malowanie = () => {
                 <div className="imageCentered">
                   <img
                     src="/assets/images/malowanie/dachy_ceramiczne.jpg"
-                    alt="Malowanie dachów ceramicznych"
+                    alt="FJ Malowanie Dachów ceramicznych"
                   />
                 </div>
                 <div className="imageCentered">
                   <img
                     src="/assets/images/malowanie/dachy_cementowe.jpg"
-                    alt="Malowanie dachów cementowych"
+                    alt="FJ Malowanie dachów cementowych"
                   />
                 </div>
                 <div className="imageCentered">
                   <img
                     src="/assets/images/malowanie/dachy_blaszane.jpg"
-                    alt="Malowanie dachów blaszanych"
+                    alt="FJ Malowanie dachów blaszanych"
                   />
                 </div>
                 <div className="imageCentered">
                   <img
                     src="/assets/images/malowanie/dachy_blachodachowka.jpg"
-                    alt="Malowanie dachów z blachodachówki"
+                    alt="FJ Malowanie dachów z blachodachówki"
                   />
                 </div>
               </div>
@@ -170,31 +169,31 @@ const Malowanie = () => {
               <div className="box">
                 <div className="href"><a href="/realizacje/renowacja"></a> </div>
                 <div className="description">Dach blaszany - renowacja</div>
-                <img src="/assets/images/realizacje/2.jpg"  alt="malowanie porównaniebudynek "/>
+                <img src="/assets/images/realizacje/2.jpg"  alt="malowanie porównanie budynek "/>
               </div>
 
               <div className="box">
                 <div className="href"><a href="/realizacje/3"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="/assets/images/realizacje/6.jpg"  alt=""/>
+                <img src="/assets/images/realizacje/6.jpg"  alt="Dom jednorodzinny"/>
               </div>
 
               <div className="box span">
                 <div className="href"><a href="/realizacje/salagimnastyczna"></a> </div>
                 <div className="description">Sala gimnastyczna</div>
-                <img src="/assets/images/realizacje/02.jpg" />
+                <img src="/assets/images/realizacje/02.jpg" alt="Sala gimnastyczna" />
               </div>
 
               <div className="box span">
                 <div className="href"><a href="/realizacje/5"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="/assets/images/realizacje/6.jpg" />
+                <img src="/assets/images/realizacje/6.jpg"  alt="Dom jednorodzinny"/>
               </div>
 
               <div className="box  ">
                 <div className="href"><a href="/realizacje/6"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
-                <img src="/assets/images/realizacje/1.jpg" />
+                <img src="/assets/images/realizacje/1.jpg"  alt="Dom jednorodzinny"/>
               </div>
 
              
@@ -219,9 +218,8 @@ const Malowanie = () => {
               <br />
               <br />
               <p className="text-center">
-                Doświadczenie zdobyliśmy malując dachy na komercyjne inwestycje oraz
-                . Ale z powodzeniem zajmujemy się także domami
-                jednorodzinnymi.
+                Doświadczenie zdobyliśmy malując dachy na inwestycjach komercyjnych i obiektach użyteczności publicznej.
+                Z powodzeniem zajmujemy się także domami jednorodzinnymi.
               </p>
               <br />
               <h4 className="text-center">

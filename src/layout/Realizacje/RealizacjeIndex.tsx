@@ -31,7 +31,7 @@ function RealizacjeIndex() {
         <Article_R 
         
         image={'/assets/images/realizacje/02.jpg'}
-        title={'Sala gimnastyczna w Szkole Podstawowej im. Romana Jabłońskiego w Łękawicy'}  
+        title={'Sala gimnastyczna'}  
         content={'Malowanie sufitu sali gimnastycznej, renowacja parkietu i sprzetu sportowego'}
         href={"#"}
         

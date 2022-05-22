@@ -3373,6 +3373,20 @@ button:disabled,
   visibility: hidden;
 }
 
+.h1_oweride{
+    font-size: 2.25em;
+    font-weight: bold;
+    font-family: arial, helvet;
+
+
+
+}
+.h4_front{
+
+font-size:0.7em;
+padding-bottom:0.5em;
+}
+
 @media screen and (max-width: 736px) {
 
   #header {
