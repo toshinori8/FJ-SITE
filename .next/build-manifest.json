@@ -1,0 +1,75 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/n_CPClxoLqgl7KjMyPyqv/_buildManifest.js",
+    "static/n_CPClxoLqgl7KjMyPyqv/_ssgManifest.js",
+    "static/n_CPClxoLqgl7KjMyPyqv/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-3d8df274f4da6137.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-6fca8d47b1cb61c9.js",
+      "static/chunks/568-3efb5aebf12ad80d.js",
+      "static/chunks/801-55da4e406ca05a4e.js",
+      "static/chunks/pages/index-1534cc4e8ba8dd63.js"
+    ],
+    "/404": [
+      "static/chunks/webpack-3d8df274f4da6137.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-6fca8d47b1cb61c9.js",
+      "static/chunks/pages/404-f2df3d99297a37e2.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-3d8df274f4da6137.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-6fca8d47b1cb61c9.js",
+      "static/css/13da8b2838293d82.css",
+      "static/chunks/pages/_app-1d19d43c67965c07.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-3d8df274f4da6137.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-6fca8d47b1cb61c9.js",
+      "static/chunks/pages/_error-2f883067a14f4c4a.js"
+    ],
+    "/kontakt": [
+      "static/chunks/webpack-3d8df274f4da6137.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-6fca8d47b1cb61c9.js",
+      "static/chunks/568-3efb5aebf12ad80d.js",
+      "static/chunks/801-55da4e406ca05a4e.js",
+      "static/chunks/pages/kontakt-6a9135095d8ea2c2.js"
+    ],
+    "/oferta/malowanie-dachow": [
+      "static/chunks/webpack-3d8df274f4da6137.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-6fca8d47b1cb61c9.js",
+      "static/chunks/568-3efb5aebf12ad80d.js",
+      "static/chunks/801-55da4e406ca05a4e.js",
+      "static/chunks/pages/oferta/malowanie-dachow-ed213e5c1577cc44.js"
+    ],
+    "/oferta/pielegnacja-ogrodow": [
+      "static/chunks/webpack-3d8df274f4da6137.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-6fca8d47b1cb61c9.js",
+      "static/chunks/568-3efb5aebf12ad80d.js",
+      "static/chunks/261-72f04310132836cb.js",
+      "static/chunks/801-55da4e406ca05a4e.js",
+      "static/chunks/pages/oferta/pielegnacja-ogrodow-5ea933a7f755e1ee.js"
+    ],
+    "/realizacje/[slug]": [
+      "static/chunks/webpack-3d8df274f4da6137.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-6fca8d47b1cb61c9.js",
+      "static/chunks/568-3efb5aebf12ad80d.js",
+      "static/chunks/801-55da4e406ca05a4e.js",
+      "static/chunks/pages/realizacje/[slug]-3c63aa3e19e0c453.js"
+    ]
+  },
+  "ampFirstPages": []
+}

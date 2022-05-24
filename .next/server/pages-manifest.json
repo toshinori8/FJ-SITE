@@ -1,0 +1,11 @@
+{
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.html",
+  "/kontakt": "pages/kontakt.html",
+  "/oferta/malowanie-dachow": "pages/oferta/malowanie-dachow.html",
+  "/oferta/pielegnacja-ogrodow": "pages/oferta/pielegnacja-ogrodow.html",
+  "/realizacje/[slug]": "pages/realizacje/[slug].js",
+  "/_error": "pages/_error.js"
+}
