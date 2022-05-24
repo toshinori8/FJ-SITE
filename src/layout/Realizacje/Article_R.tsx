@@ -8,6 +8,7 @@ type ArtProps = {
     image: string;
     content:string;
     href: string;
+    alt:string;
 };
 
 
@@ -39,7 +40,7 @@ const Article_R = (props: ArtProps) => {
     <a href="#" className="image">
       <img
         src={props.image}
-        alt="FJ Malowanie Dachów - Wadowice, Małopolska"
+        alt={props.alt}
       />
     </a>
     <h3 className="major">{props.title}</h3>

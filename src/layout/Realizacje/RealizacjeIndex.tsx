@@ -15,7 +15,7 @@ function RealizacjeIndex() {
       <h2 className="major">Nasze Realizacje</h2>
       {/* <p>Przedstawiamy nasze realizacje.</p> */}
       <section className="features">
-      <article> 
+      {/* <article> 
         <Article_R 
         
         image={'/assets/images/realizacje/1.jpg'}
@@ -24,16 +24,17 @@ function RealizacjeIndex() {
         href={"#"}
         
         />
-      </article>
+      </article> */}
 
       
        <article>
         <Article_R 
         
         image={'/assets/images/realizacje/02.jpg'}
-        title={'Sala gimnastyczna'}  
+        title={'Sala gimnastyczna'} 
+        alt={'Malowanie agregatem, sala gimnastyczna'}   
         content={'Malowanie sufitu sali gimnastycznej, renowacja parkietu i sprzetu sportowego'}
-        href={"#"}
+        href={"/realizacje/Sala_gimnastyczna"}
         
         />
         </article>

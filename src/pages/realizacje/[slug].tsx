@@ -87,10 +87,13 @@ export default function  Malowanie(props: { slug: boolean | ReactChild | ReactFr
 
           <div className="inner">
 
+            <h1 className="text-2xl">Przykładowe realizacje</h1>
+            <br/><br/>
+
             <div className="container-grid" id="gallerGrid">
 
 
-              <div className="box span">
+              {/* <div className="box span">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
                 <img src="/assets/images/realizacje/01.jpg"  alt="Dom jednorodzinny"/>
@@ -106,15 +109,15 @@ export default function  Malowanie(props: { slug: boolean | ReactChild | ReactFr
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
                 <img src="/assets/images/realizacje/6.jpg" />
-              </div>
+              </div> */}
 
               <div className="box span">
-                <div className="href"><a href="/oferta/realizacje"></a> </div>
-                <div className="description">Dom jednorodzinny</div>
+                <div className="href"><a href="/realizacje/sala_gimnastyczna"></a> </div>
+                <div className="description">Sala gimnastyczna</div>
                 <img src="/assets/images/realizacje/02.jpg" />
               </div>
 
-              <div className="box span">
+              {/* <div className="box span">
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
                 <img src="/assets/images/realizacje/6.jpg" />
@@ -124,7 +127,7 @@ export default function  Malowanie(props: { slug: boolean | ReactChild | ReactFr
                 <div className="href"><a href="/oferta/realizacje"></a> </div>
                 <div className="description">Dom jednorodzinny</div>
                 <img src="/assets/images/realizacje/1.jpg" />
-              </div>
+              </div> */}
 
              
             
