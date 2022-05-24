@@ -39,7 +39,7 @@ const Article_R = (props: ArtProps) => {
     <a href="#" className="image">
       <img
         src={props.image}
-        alt=""
+        alt="FJ Malowanie Dachów - Wadowice, Małopolska"
       />
     </a>
     <h3 className="major">{props.title}</h3>
