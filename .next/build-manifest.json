@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/n_CPClxoLqgl7KjMyPyqv/_buildManifest.js",
-    "static/n_CPClxoLqgl7KjMyPyqv/_ssgManifest.js",
-    "static/n_CPClxoLqgl7KjMyPyqv/_middlewareManifest.js"
+    "static/wdsz0zujdNquIUTtaqqKy/_buildManifest.js",
+    "static/wdsz0zujdNquIUTtaqqKy/_ssgManifest.js",
+    "static/wdsz0zujdNquIUTtaqqKy/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -16,7 +16,7 @@
       "static/chunks/main-6fca8d47b1cb61c9.js",
       "static/chunks/568-3efb5aebf12ad80d.js",
       "static/chunks/801-55da4e406ca05a4e.js",
-      "static/chunks/pages/index-1534cc4e8ba8dd63.js"
+      "static/chunks/pages/index-146bd2083fd6f918.js"
     ],
     "/404": [
       "static/chunks/webpack-3d8df274f4da6137.js",
@@ -43,7 +43,7 @@
       "static/chunks/main-6fca8d47b1cb61c9.js",
       "static/chunks/568-3efb5aebf12ad80d.js",
       "static/chunks/801-55da4e406ca05a4e.js",
-      "static/chunks/pages/kontakt-6a9135095d8ea2c2.js"
+      "static/chunks/pages/kontakt-a0ce513ba2bc2dd3.js"
     ],
     "/oferta/malowanie-dachow": [
       "static/chunks/webpack-3d8df274f4da6137.js",

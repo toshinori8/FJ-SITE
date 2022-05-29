@@ -37,7 +37,7 @@ const Article_R = (props: ArtProps) => {
  // transition={{ ease: "easeOut", duration: 2 }}
   >
   
-    <a href="#" className="image">
+    <a href={props.href} className="image">
       <img
         src={props.image}
         alt={props.alt}
