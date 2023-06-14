@@ -8,7 +8,7 @@
 
 ### Requirements
 
-- Node.js 14+ and npm
+- Node.js 18+ and npm
 
 ### Getting started
 
