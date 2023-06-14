@@ -142,3 +142,4 @@ package-lock.json
 SourceFiles/lawncare-master.zip
 
 SourceFiles/
+.DS_Store
